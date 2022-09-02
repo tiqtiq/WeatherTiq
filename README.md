@@ -1,2 +1,3 @@
 # WeatherTiq
-A Swift weather API
+
+A description of this package.

@@ -1,0 +1,267 @@
+/* WeatherCondition description for: blizzard */
+"Blizzard" = "Blizzard";
+
+/* WeatherCondition description for: blowingDust */
+"Blowing Dust" = "Blowing Dust";
+
+/* WeatherCondition description for: blowingSnow */
+"Blowing Snow" = "Blowing Snow";
+
+/* WeatherCondition description for: breezy */
+"Breezy" = "Breezy";
+
+/* WeatherCondition description for: clear */
+"Clear" = "Clear";
+
+/* WeatherCondition description for: cloudy */
+"Cloudy" = "Cloudy";
+
+/* WeatherCondition description for: drizzle */
+"Drizzle" = "Drizzle";
+
+/* CompassDirection abbreviation for: east */
+"E" = "E";
+
+/* CompassDirection description for: east */
+"East" = "East";
+
+/* CompassDirection description for: eastNortheast */
+"East Northeast" = "East Northeast";
+
+/* CompassDirection description for: eastSoutheast */
+"East Southeast" = "East Southeast";
+
+/* CompassDirection abbreviation for: eastNortheast */
+"ENE" = "ENE";
+
+/* CompassDirection abbreviation for: eastSoutheast */
+"ESE" = "ESE";
+
+/* ExposureCategory description for: extreme
+   WeatherCondition description for: extreme */
+"Extreme" = "Extreme";
+
+/* PressureTrend description for: falling */
+"Falling" = "Falling";
+
+/* MoonPhase description for: firstQuarter */
+"First Quarter" = "First Quarter";
+
+/* WeatherCondition description for: flurries */
+"Flurries" = "Flurries";
+
+/* WeatherCondition description for: foggy */
+"Foggy" = "Foggy";
+
+/* WeatherCondition description for: freezingDrizzle */
+"Freezing Drizzle" = "Freezing Drizzle";
+
+/* WeatherCondition description for: freezingRain */
+"Freezing Rain" = "Freezing Rain";
+
+/* WeatherCondition description for: frigid */
+"Frigid" = "Frigid";
+
+/* MoonPhase description for: full */
+"Full" = "Full";
+
+/* Precipitation description for: hail
+   WeatherCondition description for: hail */
+"Hail" = "Hail";
+
+/* WeatherCondition description for: haze */
+"Haze" = "Haze";
+
+/* WeatherCondition description for: heavyRain */
+"Heavy Rain" = "Heavy Rain";
+
+/* WeatherCondition description for: heavySnow */
+"Heavy Snow" = "Heavy Snow";
+
+/* ExposureCategory description for: high */
+"High" = "High";
+
+/* WeatherCondition description for: hot */
+"Hot" = "Hot";
+
+/* WeatherCondition description for: hurricane */
+"Hurricane" = "Hurricane";
+
+/* WeatherCondition description for: isolatedThunderstorms */
+"Isolated Thunderstorms" = "Isolated Thunderstorms";
+
+/* MoonPhase description for: lastQuarter */
+"Last Quarter" = "Last Quarter";
+
+/* ExposureCategory description for: low */
+"Low" = "Low";
+
+/* WeatherCondition description for: minor */
+"Minor" = "Minor";
+
+/* Precipitation description for: mixed */
+"Mixed" = "Mixed";
+
+/* ExposureCategory description for: moderate
+   WeatherCondition description for: moderate */
+"Moderate" = "Moderate";
+
+/* WeatherCondition description for: mostlyClear */
+"Mostly Clear" = "Mostly Clear";
+
+/* WeatherCondition description for: mostlyCloudy */
+"Mostly Cloudy" = "Mostly Cloudy";
+
+/* CompassDirection abbreviation for: north */
+"N" = "N";
+
+/* CompassDirection abbreviation for: northeast */
+"NE" = "NE";
+
+/* MoonPhase description for: new */
+"New" = "New";
+
+/* CompassDirection abbreviation for: northNortheast */
+"NNE" = "NNE";
+
+/* CompassDirection abbreviation for: northNorthwest */
+"NNW" = "NNW";
+
+/* Precipitation description for: none */
+"None" = "None";
+
+/* CompassDirection description for: north */
+"North" = "North";
+
+/* CompassDirection description for: northNortheast */
+"North Northeast" = "North Northeast";
+
+/* CompassDirection description for: northNorthwest */
+"North Northwest" = "North Northwest";
+
+/* CompassDirection description for: northeast */
+"Northeast" = "Northeast";
+
+/* CompassDirection description for: northwest */
+"Northwest" = "Northwest";
+
+/* CompassDirection abbreviation for: northwest */
+"NW" = "NW";
+
+/* WeatherCondition description for: partlyCloudy */
+"Partly Cloudy" = "Partly Cloudy";
+
+/* Precipitation description for: rain
+   WeatherCondition description for: rain */
+"Rain" = "Rain";
+
+/* PressureTrend description for: rising */
+"Rising" = "Rising";
+
+/* CompassDirection abbreviation for: south */
+"S" = "S";
+
+/* WeatherCondition description for: scatteredThunderstorms */
+"Scattered Thunderstorms" = "Scattered Thunderstorms";
+
+/* CompassDirection abbreviation for: southeast */
+"SE" = "SE";
+
+/* WeatherCondition description for: severe */
+"Severe" = "Severe";
+
+/* Precipitation description for: sleet
+   WeatherCondition description for: sleet */
+"Sleet" = "Sleet";
+
+/* WeatherCondition description for: smoky */
+"Smoky" = "Smoky";
+
+/* Precipitation description for: snow
+   WeatherCondition description for: snow */
+"Snow" = "Snow";
+
+/* CompassDirection description for: south */
+"South" = "South";
+
+/* CompassDirection description for: southSoutheast */
+"South Southeast" = "South Southeast";
+
+/* CompassDirection description for: southSouthwest */
+"South Southwest" = "South Southwest";
+
+/* CompassDirection description for: southeast */
+"Southeast" = "Southeast";
+
+/* CompassDirection description for: southwest */
+"Southwest" = "Southwest";
+
+/* CompassDirection abbreviation for: southSoutheast */
+"SSE" = "SSE";
+
+/* CompassDirection abbreviation for: southSouthwest */
+"SSW" = "SSW";
+
+/* PressureTrend description for: steady */
+"Steady" = "Steady";
+
+/* WeatherCondition description for: strongStorms */
+"Strong Storms" = "Strong Storms";
+
+/* WeatherCondition description for: sunFlurries */
+"Sun Flurries" = "Sun Flurries";
+
+/* WeatherCondition description for: sunShowers */
+"Sun Showers" = "Sun Showers";
+
+/* CompassDirection abbreviation for: southwest */
+"SW" = "SW";
+
+/* WeatherCondition description for: thunderstorms */
+"Thunderstorms" = "Thunderstorms";
+
+/* WeatherCondition description for: tropicalStorm */
+"Tropical Storm" = "Tropical Storm";
+
+/* WeatherCondition description for: unknown */
+"Unknown" = "Unknown";
+
+/* ExposureCategory description for: veryHigh */
+"Very High" = "Very High";
+
+/* CompassDirection abbreviation for: west */
+"W" = "W";
+
+/* MoonPhase description for: waningCrescent */
+"Waning Crescent" = "Waning Crescent";
+
+/* MoonPhase description for: waningGibbous */
+"Waning Gibbous" = "Waning Gibbous";
+
+/* MoonPhase description for: waxingCrescent */
+"Waxing Crescent" = "Waxing Crescent";
+
+/* MoonPhase description for: waxingGibbous */
+"Waxing Gibbous" = "Waxing Gibbous";
+
+/* CompassDirection description for: west */
+"West" = "West";
+
+/* CompassDirection description for: westNorthwest */
+"West Northwest" = "West Northwest";
+
+/* CompassDirection description for: westSouthwest */
+"West Southwest" = "West Southwest";
+
+/* WeatherCondition description for: windy */
+"Windy" = "Windy";
+
+/* WeatherCondition description for: wintryMix */
+"Wintry Mix" = "Wintry Mix";
+
+/* CompassDirection abbreviation for: westNorthwest */
+"WNW" = "WNW";
+
+/* CompassDirection abbreviation for: westSouthwest */
+"WSW" = "WSW";
+

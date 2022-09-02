@@ -1,0 +1,7 @@
+// Portugese strings for WeatherTiq.
+// Translators wanted! Simply edit this file…
+
+"OK" = "OK";
+"Cancel" = "Cancelar";
+"Welcome to %@!" = "Bem-vindo ao %@!";
+
