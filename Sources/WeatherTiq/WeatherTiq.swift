@@ -89,7 +89,7 @@ open class WeatherService : @unchecked Sendable {
 
         // “All requests must (if possible) include an identifying User Agent-string (UA) in the request with the application/domain name, optionally version number.”
         let info = Bundle.main.infoDictionary
-        let name = (info?["CFBundleName"] as? String) ?? "AppName"
+        let name = (info?["CFBundleName"] as? String) ?? (info?["CFBundleDisplayName"] as? String) ?? "AppName"
         let version = (info?["CFBundleShortVersionString"] as? String) ?? "unknown"
         let bundleID = (info?["CFBundleIdentifier"] as? String) ?? "unknown"
 
@@ -125,19 +125,23 @@ open class WeatherService : @unchecked Sendable {
         //dbg("headers:", headers) // headers: [AnyHashable("Date"): Fri, 02 Sep 2022 15:42:25 GMT, AnyHashable("access-control-allow-methods"): GET, AnyHashable("Last-Modified"): Fri, 02 Sep 2022 15:40:17 GMT, AnyHashable("Age"): 128, AnyHashable("x-backend-host"): b_157_249_75_149_loc, AnyHashable("Content-Length"): 4407, AnyHashable("Content-Type"): application/json, AnyHashable("Vary"): Accept, Accept-Encoding, AnyHashable("x-varnish"): 222428042 222351858, AnyHashable("Via"): 1.1 varnish (Varnish/7.0), AnyHashable("Access-Control-Allow-Origin"): *, AnyHashable("Server"): nginx/1.18.0 (Ubuntu), AnyHashable("Content-Encoding"): gzip, AnyHashable("Expires"): Fri, 02 Sep 2022 16:10:19 GMT, AnyHashable("access-control-allow-headers"): Origin, AnyHashable("Accept-Ranges"): bytes]
 
 
-        if let modDate = headers["Last-Modified"] as? String {
-        }
-
-        if let expDate = headers["Expires"] as? String {
-        }
+//        if let modDate = headers["Last-Modified"] as? String {
+//        }
+//
+//        if let expDate = headers["Expires"] as? String {
+//        }
 
         // Expires: "Fri, 02 Sep 2022 16:10:19 GMT"
         let meta = WeatherMetadata(date: step.time, expirationDate: wip(.distantFuture), location: location)
 
+        let nextHour = step.data.next_1_hours
+        let next6Hours = step.data.next_6_hours
+        let next12Hours = step.data.next_12_hours
+
         let currentWeather = try CurrentWeather(date: step.time,
                                                 cloudCover: inst.cloud_area_fraction ?? .nan,
-                                                condition: wip(.clear),
-                                                symbolName: wip(""),
+                                                condition: nextHour?.summary.condition ?? wip(.smoky),
+                                                symbolName: nextHour?.summary.condition.symbolName ?? "questionmark",
                                                 dewPoint: .init(value: inst.dew_point_temperature ?? .nan, unit: units.dewPointTemperatureUnits),
                                                 humidity: inst.relative_humidity ?? .nan,
                                                 pressure: .init(value: inst.air_pressure_at_sea_level ?? .nan, unit: units.airPressureAtSeaLevelUnits),
@@ -150,10 +154,6 @@ open class WeatherService : @unchecked Sendable {
                                                 wind: Wind(compassDirection: Wind.CompassDirection.from(degrees: inst.wind_from_direction ?? .nan), direction: .init(value: inst.wind_from_direction ?? .nan, unit: .degrees), speed: .init(value: inst.wind_speed ?? .nan, unit: units.windSpeedUnits)),
                                                 metadata: meta)
 
-//        let nextHour = step.data.next1Hours
-//        let next6Hours = step.data.next6Hours
-//        let next12Hours = step.data.next12Hours
-//
         let minuteForecast: [MinuteWeather] = []
         let hourlyForecast: [HourWeather] = []
         let dailyForecast: [DayWeather] = []
@@ -222,6 +222,134 @@ open class WeatherService : @unchecked Sendable {
     final public func weather<T1, T2, T3, T4, T5, T6>(for location: WeatherLocation, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>, _ dataSet4: WeatherQuery<T4>, _ dataSet5: WeatherQuery<T5>, _ dataSet6: WeatherQuery<T6>) async throws -> (T1, T2, T3, T4, T5, T6) {
         let w = try await self.weather(for: location)
         return (w[keyPath: dataSet1.path], w[keyPath: dataSet2.path], w[keyPath: dataSet3.path], w[keyPath: dataSet4.path], w[keyPath: dataSet5.path], w[keyPath: dataSet6.path])
+    }
+}
+
+extension METService.ForecastSummary {
+    /// Translated between `METService.ForecastSummary.WeatherSymbol` and `WeatherTiq.WeatherCondition`
+    var condition: WeatherCondition {
+        sections.primary
+    }
+
+    var sections: (primary: WeatherCondition, secondary: WeatherCondition?, day: Bool?) {
+        switch symbol_code {
+        case .clearsky_day: return (.clear, nil, true)
+        case .clearsky_night: return (.clear, nil, false)
+        case .clearsky_polartwilight: return (.clear, nil, nil)
+
+        case .fair_day: return (.clear, nil, true)
+        case .fair_night: return (.clear, nil, false)
+        case .fair_polartwilight: return (.clear, nil, nil)
+
+        case .lightssnowshowersandthunder_day: return (.snow, .thunderstorms, true)
+        case .lightssnowshowersandthunder_night: return (.snow, .thunderstorms, false)
+        case .lightssnowshowersandthunder_polartwilight: return (.snow, .thunderstorms, nil)
+
+        case .lightsnowshowers_day: return (.snow, nil, true)
+        case .lightsnowshowers_night: return (.snow, nil, false)
+        case .lightsnowshowers_polartwilight: return (.snow, nil, nil)
+
+        case .heavyrainandthunder: return (.heavyRain, .thunderstorms, nil)
+        case .heavysnowandthunder: return (.heavySnow, .thunderstorms, nil)
+
+        case .rainandthunder: return (.rain, .thunderstorms, nil)
+
+        case .heavysleetshowersandthunder_day: return (.sleet, .thunderstorms, true)
+        case .heavysleetshowersandthunder_night: return (.sleet, .thunderstorms, false)
+        case .heavysleetshowersandthunder_polartwilight: return (.sleet, .thunderstorms, nil)
+
+        case .heavysnow: return (.heavySnow, .clear, nil)
+
+        case .heavyrainshowers_day: return (.heavyRain, nil, true)
+        case .heavyrainshowers_night: return (.heavyRain, nil, false)
+        case .heavyrainshowers_polartwilight: return (.heavyRain, nil, nil)
+
+        case .lightsleet: return (.sleet, nil, nil)
+        case .heavyrain: return (.heavyRain, nil, nil)
+
+        case .lightrainshowers_day: return (.rain, nil, true)
+        case .lightrainshowers_night: return (.rain, nil, false)
+        case .lightrainshowers_polartwilight: return (.rain, nil, nil)
+
+        case .heavysleetshowers_day: return (.sleet, nil, true)
+        case .heavysleetshowers_night: return (.sleet, nil, false)
+        case .heavysleetshowers_polartwilight: return (.sleet, nil, nil)
+
+        case .lightsleetshowers_day: return (.sleet, nil, true)
+        case .lightsleetshowers_night: return (.sleet, nil, false)
+        case .lightsleetshowers_polartwilight: return (.sleet, nil, nil)
+
+        case .snow: return (.snow, nil, nil)
+
+        case .heavyrainshowersandthunder_day: return (.heavyRain, .thunderstorms, true)
+        case .heavyrainshowersandthunder_night: return (.heavyRain, .thunderstorms, false)
+        case .heavyrainshowersandthunder_polartwilight: return (.heavyRain, .thunderstorms, nil)
+
+        case .snowshowers_day: return (.snow, nil, true)
+        case .snowshowers_night: return (.snow, nil, false)
+        case .snowshowers_polartwilight: return (.snow, nil, nil)
+
+        case .fog: return (.foggy, nil, nil)
+
+        case .snowshowersandthunder_day: return (.snow, .thunderstorms, true)
+        case .snowshowersandthunder_night: return (.snow, .thunderstorms, false)
+        case .snowshowersandthunder_polartwilight: return (.snow, .thunderstorms, nil)
+
+        case .lightsnowandthunder: return (.snow, .thunderstorms, nil)
+        case .heavysleetandthunder: return (.sleet, .thunderstorms, nil)
+            
+        case .lightrain: return (.rain, nil, nil)
+
+        case .rainshowersandthunder_day: return (.rain, .thunderstorms, true)
+        case .rainshowersandthunder_night: return (.rain, .thunderstorms, false)
+        case .rainshowersandthunder_polartwilight: return (.rain, .thunderstorms, nil)
+
+        case .rain: return (.rain, nil, nil)
+        case .lightsnow: return (.snow, nil, nil)
+
+        case .lightrainshowersandthunder_day: return (.rain, .thunderstorms, true)
+        case .lightrainshowersandthunder_night: return (.rain, .thunderstorms, false)
+        case .lightrainshowersandthunder_polartwilight: return (.rain, .thunderstorms, nil)
+
+        case .heavysleet: return (.sleet, nil, nil)
+        case .sleetandthunder: return (.sleet, .thunderstorms, nil)
+        case .lightrainandthunder: return (.rain, .thunderstorms, nil)
+        case .sleet: return (.sleet, nil, nil)
+
+        case .lightssleetshowersandthunder_day: return (.sleet, .thunderstorms, true)
+        case .lightssleetshowersandthunder_night: return (.sleet, .thunderstorms, false)
+        case .lightssleetshowersandthunder_polartwilight: return (.sleet, .thunderstorms, nil)
+
+        case .lightsleetandthunder: return (.sleet, .thunderstorms, nil)
+
+        case .partlycloudy_day: return (.partlyCloudy, nil, true)
+        case .partlycloudy_night: return (.partlyCloudy, nil, false)
+        case .partlycloudy_polartwilight: return (.partlyCloudy, nil, nil)
+
+        case .sleetshowersandthunder_day: return (.sleet, .thunderstorms, true)
+        case .sleetshowersandthunder_night: return (.sleet, .thunderstorms, false)
+        case .sleetshowersandthunder_polartwilight: return (.sleet, .thunderstorms, nil)
+
+        case .rainshowers_day: return (.rain, nil, true)
+        case .rainshowers_night: return (.rain, nil, false)
+        case .rainshowers_polartwilight: return (.rain, nil, nil)
+
+        case .snowandthunder: return (.snow, .thunderstorms, nil)
+
+        case .sleetshowers_day: return (.sleet, nil, true)
+        case .sleetshowers_night: return (.sleet, nil, false)
+        case .sleetshowers_polartwilight: return (.sleet, nil, nil)
+
+        case .cloudy: return (.cloudy, nil, nil)
+
+        case .heavysnowshowersandthunder_day: return (.heavySnow, .thunderstorms, true)
+        case .heavysnowshowersandthunder_night: return (.heavySnow, .thunderstorms, false)
+        case .heavysnowshowersandthunder_polartwilight: return (.heavySnow, .thunderstorms, nil)
+
+        case .heavysnowshowers_day: return (.heavySnow, nil, true)
+        case .heavysnowshowers_night: return (.heavySnow, nil, false)
+        case .heavysnowshowers_polartwilight: return (.heavySnow, nil, nil)
+        }
     }
 }
 
@@ -1087,6 +1215,11 @@ public enum WeatherCondition : String, CaseIterable, CustomStringConvertible, Ha
 
     /// Standard string describing the current condition.
     public var description: String {
+        localizedDescription
+    }
+
+    /// Standard string describing the current condition.
+    public var localizedDescription: String {
         switch self {
         case .blizzard: return NSLocalizedString("Blizzard", bundle: .module, comment: "WeatherCondition description for: blizzard")
         case .blowingDust: return NSLocalizedString("Blowing Dust", bundle: .module, comment: "WeatherCondition description for: blowingDust")
@@ -1123,6 +1256,46 @@ public enum WeatherCondition : String, CaseIterable, CustomStringConvertible, Ha
         case .windy: return NSLocalizedString("Windy", bundle: .module, comment: "WeatherCondition description for: windy")
         case .wintryMix: return NSLocalizedString("Wintry Mix", bundle: .module, comment: "WeatherCondition description for: wintryMix")
         }
+    }
+
+    var symbolName: String {
+        switch self {
+        case .blizzard: return "cloud.snow"
+        case .blowingDust: return "sun.dust"
+        case .blowingSnow: return "cloud.snow"
+        case .breezy: return "wind"
+        case .clear: return "sun.max"
+        case .cloudy: return "cloud"
+        case .drizzle: return "cloud.drizzle"
+        case .flurries: return "cloud.snow"
+        case .foggy: return "cloud.fog"
+        case .freezingDrizzle: return "cloud.drizzle"
+        case .freezingRain: return "cloud.rain"
+        case .frigid: return "thermometer.snowflake"
+        case .hail: return "cloud.hail"
+        case .haze: return "sun.haze"
+        case .heavyRain: return "cloud.heavyrain"
+        case .heavySnow: return "cloud.snow"
+        case .hot: return "thermometer.sun"
+        case .hurricane: return "hurricane"
+        case .isolatedThunderstorms: return "cloud.bolt"
+        case .mostlyClear: return "sun.min"
+        case .mostlyCloudy: return "cloud"
+        case .partlyCloudy: return "cloud.sun"
+        case .rain: return "cloud.rain"
+        case .scatteredThunderstorms: return "cloud.bolt"
+        case .sleet: return "cloud.sleet"
+        case .smoky: return "smoke"
+        case .snow: return "cloud.snow"
+        case .strongStorms: return "cloud.bolt.rain"
+        case .sunFlurries: return "snowflake.circle"
+        case .sunShowers: return "cloud.sun.rain"
+        case .thunderstorms: return "cloud.bolt"
+        case .tropicalStorm: return "tropicalstorm"
+        case .windy: return "wind"
+        case .wintryMix: return "cloud.sleet"
+        }
+
     }
 
     /// A localized accessibility description describing the weather condition, suitable for
@@ -1227,7 +1400,7 @@ public enum MoonPhase : String, CustomStringConvertible, CaseIterable, Hashable,
     /// The SF Symbol icon that represents the moon phase.
     ///
     public var symbolName: String {
-        fatalError(wip("TODO"))
+        wip("")
     }
 }
 
