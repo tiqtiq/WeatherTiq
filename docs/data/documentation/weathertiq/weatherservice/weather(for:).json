@@ -47,7 +47,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10WeatherTiq8Locationa",
+        "preciseIdentifier" : "s:11LocationTiq0A0a",
         "text" : "Location"
       },
       {
@@ -168,9 +168,8 @@
               "text" : ": "
             },
             {
-              "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Location",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10WeatherTiq8Locationa",
+              "preciseIdentifier" : "s:11LocationTiq0A0a",
               "text" : "Location"
             },
             {
@@ -308,37 +307,6 @@
   "type" : "topic",
   "url" : "\/documentation\/weathertiq"
 },
-"doc://WeatherTiq/documentation/WeatherTiq/Location": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "typealias"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Location"
-    }
-  ],
-  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Location",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Location"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "Location",
-  "type" : "topic",
-  "url" : "\/documentation\/weathertiq\/location"
-},
 "doc://WeatherTiq/documentation/WeatherTiq/Weather": {
   "abstract" : [
     {
@@ -453,7 +421,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10WeatherTiq8Locationa",
+      "preciseIdentifier" : "s:11LocationTiq0A0a",
       "text" : "Location"
     },
     {

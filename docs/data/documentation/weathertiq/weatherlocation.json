@@ -1,0 +1,264 @@
+{
+  "abstract" : [
+    {
+      "text" : "A location that contains a latitude, longitude, and altitude",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq0A8LocationP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "WeatherLocation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "WeatherLocation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "WeatherLocation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "WeatherLocation"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/altitude",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/latitude",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/longitude"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/weatherlocation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherLocation": {
+  "abstract" : [
+    {
+      "text" : "A location that contains a latitude, longitude, and altitude",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherLocation"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherLocation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherLocation",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherlocation"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherLocation/altitude": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "altitude"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/altitude",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "altitude",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherlocation\/altitude"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherLocation/latitude": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "latitude"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/latitude",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "latitude",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherlocation\/latitude"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherLocation/longitude": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "longitude"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/longitude",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "longitude",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherlocation\/longitude"
+}
+}
+}

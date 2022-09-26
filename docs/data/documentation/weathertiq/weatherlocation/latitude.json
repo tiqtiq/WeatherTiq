@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The location of the request.",
+      "text" : "No overview available.",
       "type" : "text"
     }
   ],
@@ -9,17 +9,17 @@
     "paths" : [
       [
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
-        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherMetadata"
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherMetadata\/location"
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/latitude"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10WeatherTiq0A8MetadataV8locationSo10CLLocationCvp",
+    "externalID" : "s:10WeatherTiq0A8LocationP8latitudeSdvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -31,7 +31,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "location"
+        "text" : "latitude"
       },
       {
         "kind" : "text",
@@ -39,8 +39,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:11LocationTiq0A0a",
-        "text" : "Location"
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
       }
     ],
     "modules" : [
@@ -48,10 +48,11 @@
         "name" : "WeatherTiq"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
-    "title" : "location"
+    "title" : "latitude"
   },
   "primaryContentSections" : [
     {
@@ -74,7 +75,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "location"
+              "text" : "latitude"
             },
             {
               "kind" : "text",
@@ -82,8 +83,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:11LocationTiq0A0a",
-              "text" : "Location"
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
             },
             {
               "kind" : "text",
@@ -114,7 +115,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/weathertiq\/weathermetadata\/location"
+        "\/documentation\/weathertiq\/weatherlocation\/latitude"
       ],
       "traits" : [
         {
@@ -136,17 +137,17 @@
   "type" : "topic",
   "url" : "\/documentation\/weathertiq"
 },
-"doc://WeatherTiq/documentation/WeatherTiq/WeatherMetadata": {
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherLocation": {
   "abstract" : [
     {
-      "text" : "A structure that provides additional weather information.",
+      "text" : "A location that contains a latitude, longitude, and altitude",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -154,28 +155,25 @@
     },
     {
       "kind" : "identifier",
-      "text" : "WeatherMetadata"
+      "text" : "WeatherLocation"
     }
   ],
-  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherMetadata",
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "WeatherMetadata"
+      "text" : "WeatherLocation"
     }
   ],
   "role" : "symbol",
-  "title" : "WeatherMetadata",
+  "title" : "WeatherLocation",
   "type" : "topic",
-  "url" : "\/documentation\/weathertiq\/weathermetadata"
+  "url" : "\/documentation\/weathertiq\/weatherlocation"
 },
-"doc://WeatherTiq/documentation/WeatherTiq/WeatherMetadata/location": {
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherLocation/latitude": {
   "abstract" : [
-    {
-      "text" : "The location of the request.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -188,7 +186,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "location"
+      "text" : "latitude"
     },
     {
       "kind" : "text",
@@ -196,16 +194,17 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:11LocationTiq0A0a",
-      "text" : "Location"
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
     }
   ],
-  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherMetadata\/location",
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherLocation\/latitude",
   "kind" : "symbol",
+  "required" : true,
   "role" : "symbol",
-  "title" : "location",
+  "title" : "latitude",
   "type" : "topic",
-  "url" : "\/documentation\/weathertiq\/weathermetadata\/location"
+  "url" : "\/documentation\/weathertiq\/weatherlocation\/latitude"
 }
 }
 }
