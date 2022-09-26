@@ -201,7 +201,8 @@
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter\/maximumDegreesFractionDigits",
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter\/minimumDegreesFractionDigits",
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter\/parsingOptions",
-        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter\/symbolStyle"
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter\/symbolStyle",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter\/utmDatum"
       ],
       "title" : "Instance Properties"
     },
@@ -1238,6 +1239,43 @@
   "title" : "symbolStyle",
   "type" : "topic",
   "url" : "\/documentation\/weathertiq\/locationcoordinateformatter\/symbolstyle"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationCoordinateFormatter/utmDatum": {
+  "abstract" : [
+    {
+      "text" : "The datum to use for UTM coordinates.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "utmDatum"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq8UTMDatumV",
+      "text" : "UTMDatum"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter\/utmDatum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "utmDatum",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationcoordinateformatter\/utmdatum"
 },
 "doc://WeatherTiq/documentation/WeatherTiq/LocationCoordinateFormatter/utmFormatter": {
   "abstract" : [

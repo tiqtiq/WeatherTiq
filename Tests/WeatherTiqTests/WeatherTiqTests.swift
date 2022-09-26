@@ -13,6 +13,7 @@ final class WeatherTiqTests: XCTestCase {
         }
     }
 
+    #if canImport(ObjectiveC) // needed for AutoreleasingUnsafeMutablePointer
     func testLocationFormatter() async throws {
         let ddcompact = {
             LocationDegreesFormatter(format: .decimalDegrees, displayOptions: .compact)!.string(from: $0)
@@ -31,5 +32,5 @@ final class WeatherTiqTests: XCTestCase {
         XCTAssertEqual(nil, degminsec(-312.5434224))
 
     }
-
+    #endif
 }
