@@ -1,0 +1,477 @@
+{
+  "abstract" : [
+    {
+      "text" : "Parse a Degrees for a given string.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/locationDegrees(from:orientation:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq24LocationDegreesFormatterC08locationD04from11orientationSdSS_AA21CoordinateOrientationOSgtKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "locationDegrees"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "orientation"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WeatherTiq21CoordinateOrientationO",
+        "text" : "CoordinateOrientation"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WeatherTiq7Degreesa",
+        "text" : "Degrees"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "locationDegrees(from:orientation:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "locationDegrees"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "from"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "str"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "orientation"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateOrientation",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WeatherTiq21CoordinateOrientationO",
+              "text" : "CoordinateOrientation"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil) "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Degrees",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WeatherTiq7Degreesa",
+              "text" : "Degrees"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "a ",
+              "type" : "text"
+            },
+            {
+              "code" : "Degrees",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The string to be parsed.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "str"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Expected orientation (latitude or longitude). Optional, default is none.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "orientation"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/locationdegreesformatter\/locationdegrees(from:orientation:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/CoordinateOrientation": {
+  "abstract" : [
+    {
+      "text" : "Defines whether a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is intended to represent latitude or longitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateOrientation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateOrientation",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/coordinateorientation"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Degrees": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Degrees"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Degrees",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Degrees"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Degrees",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/degrees"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationDegreesFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/locationDegrees(from:orientation:)": {
+  "abstract" : [
+    {
+      "text" : "Parse a Degrees for a given string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "locationDegrees"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "orientation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq21CoordinateOrientationO",
+      "text" : "CoordinateOrientation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq7Degreesa",
+      "text" : "Degrees"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/locationDegrees(from:orientation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "locationDegrees(from:orientation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/locationdegrees(from:orientation:)"
+}
+}
+}

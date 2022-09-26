@@ -1,0 +1,234 @@
+{
+  "abstract" : [
+    {
+      "text" : "The moon phase.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonEvents"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonEvents\/phase"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq10MoonEventsV5phaseAA0C5PhaseOvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "phase"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10WeatherTiq9MoonPhaseO",
+        "text" : "MoonPhase"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "phase"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "phase"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10WeatherTiq9MoonPhaseO",
+              "text" : "MoonPhase"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/moonevents\/phase"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonEvents": {
+  "abstract" : [
+    {
+      "text" : "A structure that represents lunar events, including the moon phase, moonrise, and moonset.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MoonEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonEvents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MoonEvents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MoonEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonevents"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonEvents/phase": {
+  "abstract" : [
+    {
+      "text" : "The moon phase.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "phase"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq9MoonPhaseO",
+      "text" : "MoonPhase"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonEvents\/phase",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "phase",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonevents\/phase"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase": {
+  "abstract" : [
+    {
+      "text" : "An enumeration that specifies the moon phase kind.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MoonPhase"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MoonPhase"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MoonPhase",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase"
+}
+}
+}

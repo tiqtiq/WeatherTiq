@@ -1,0 +1,702 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq0A3SPIP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "WeatherSPI"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "WeatherSPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "WeatherSPI"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "WeatherSPI"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Weather"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/CurrentWeatherType",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/DayForecastType",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/HourForecastType",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/MinuteForecastType",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/WeatherAlertType",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/WeatherAvailabilityType"
+      ],
+      "title" : "Associated Types"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/availability",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/currentWeather",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/dailyForecast",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/hourlyForecast",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/minuteForecast",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/weatherAlerts"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/weatherspi"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Weather": {
+  "abstract" : [
+    {
+      "text" : "Wrapper model representing the aggregate weather data requested by the caller.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Weather"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Weather",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Weather"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Weather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/CurrentWeatherType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CurrentWeatherType"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq07CurrentA3SPIP",
+      "text" : "CurrentWeatherSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/CurrentWeatherType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "CurrentWeatherType",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/currentweathertype"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/DayForecastType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DayForecastType"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq14DayForecastSPIP",
+      "text" : "DayForecastSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/DayForecastType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "DayForecastType",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/dayforecasttype"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/HourForecastType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HourForecastType"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq15HourForecastSPIP",
+      "text" : "HourForecastSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/HourForecastType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "HourForecastType",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/hourforecasttype"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/MinuteForecastType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MinuteForecastType"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq17MinuteForecastSPIP",
+      "text" : "MinuteForecastSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/MinuteForecastType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "MinuteForecastType",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/minuteforecasttype"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/WeatherAlertType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAlertType"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq0A8AlertSPIP",
+      "text" : "WeatherAlertSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/WeatherAlertType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "WeatherAlertType",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/weatheralerttype"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/WeatherAvailabilityType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailabilityType"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq0A15AvailabilitySPIP",
+      "text" : "WeatherAvailabilitySPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/WeatherAvailabilityType",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "WeatherAvailabilityType",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/weatheravailabilitytype"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/availability": {
+  "abstract" : [
+    {
+      "text" : "The flags containing information about data availability and attribution.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "availability"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "WeatherAvailabilityType"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/availability",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "availability",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/availability"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/currentWeather": {
+  "abstract" : [
+    {
+      "text" : "The current weather forecast.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "currentWeather"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "CurrentWeatherType"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/currentWeather",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "currentWeather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/currentweather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/dailyForecast": {
+  "abstract" : [
+    {
+      "text" : "The daily forecast.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dailyForecast"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "DayForecastType"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/dailyForecast",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "dailyForecast",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/dailyforecast"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/hourlyForecast": {
+  "abstract" : [
+    {
+      "text" : "The hourly forecast.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hourlyForecast"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "HourForecastType"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/hourlyForecast",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "hourlyForecast",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/hourlyforecast"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/minuteForecast": {
+  "abstract" : [
+    {
+      "text" : "The minute-by-minute forecast. Optional due to unsupported regions and availability of data.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "minuteForecast"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "MinuteForecastType"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/minuteForecast",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "minuteForecast",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/minuteforecast"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI/weatherAlerts": {
+  "abstract" : [
+    {
+      "text" : "The severe weather alerts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "weatherAlerts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "WeatherAlertType"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI\/weatherAlerts",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "weatherAlerts",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi\/weatheralerts"
+}
+}
+}

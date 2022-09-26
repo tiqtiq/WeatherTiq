@@ -1,0 +1,521 @@
+{
+  "abstract" : [
+    {
+      "text" : "Universal Transverse Mercator (UTM) coordinate which divies the earth into 60 different zones. The coordinates northing and easting are relative to the specified zone, and are also relative to the hemisphere.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq13UTMCoordinateV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UTMCoordinate"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UTMCoordinate"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "UTMCoordinate"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UTMCoordinate"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/init(northing:easting:zone:hemisphere:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/easting",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/hemisphere",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/northing",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/zone"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/coordinate(datum:)",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/location(datum:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/utmcoordinate"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate": {
+  "abstract" : [
+    {
+      "text" : "Universal Transverse Mercator (UTM) coordinate which divies the earth into 60 different zones. The coordinates northing and easting are relative to the specified zone, and are also relative to the hemisphere.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMCoordinate",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate/coordinate(datum:)": {
+  "abstract" : [
+    {
+      "text" : "Calculates the latitude\/longitude coordinate of the receiver",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "coordinate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "datum"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq8UTMDatumV",
+      "text" : "UTMDatum"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq10Coordinatea",
+      "text" : "Coordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/coordinate(datum:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "coordinate(datum:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate\/coordinate(datum:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate/easting": {
+  "abstract" : [
+    {
+      "text" : "Easting, corresponds to longitude",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "easting"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/easting",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "easting",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate\/easting"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate/hemisphere": {
+  "abstract" : [
+    {
+      "text" : "Hemisphere, northern or southern",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hemisphere"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq13UTMHemisphereO",
+      "text" : "UTMHemisphere"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/hemisphere",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hemisphere",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate\/hemisphere"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate/init(northing:easting:zone:hemisphere:)": {
+  "abstract" : [
+    {
+      "text" : "Initializes a UTM coordinate with the specified parameters",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "northing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "easting"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "zone"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq11UTMGridZonea",
+      "text" : "UTMGridZone"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "hemisphere"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq13UTMHemisphereO",
+      "text" : "UTMHemisphere"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/init(northing:easting:zone:hemisphere:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(northing:easting:zone:hemisphere:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate\/init(northing:easting:zone:hemisphere:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate/location(datum:)": {
+  "abstract" : [
+    {
+      "text" : "Calculates the location (CLLocation) coordinate of the receiver",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "location"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "datum"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq8UTMDatumV",
+      "text" : "UTMDatum"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq8Locationa",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/location(datum:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "location(datum:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate\/location(datum:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate/northing": {
+  "abstract" : [
+    {
+      "text" : "Northing, corresponds to the latitude",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "northing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/northing",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "northing",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate\/northing"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate/zone": {
+  "abstract" : [
+    {
+      "text" : "Zone, a positive integer between 1 and 60",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zone"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq11UTMGridZonea",
+      "text" : "UTMGridZone"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate\/zone",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "zone",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate\/zone"
+}
+}
+}

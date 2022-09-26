@@ -1,0 +1,207 @@
+{
+  "abstract" : [
+    {
+      "text" : "The data is supported for the location but is temporarily unavailable.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/temporarilyUnavailable"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq0A12AvailabilityV0C4KindO22temporarilyUnavailableyA2EmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "temporarilyUnavailable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "WeatherAvailability.AvailabilityKind.temporarilyUnavailable"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "temporarilyUnavailable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/temporarilyunavailable"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability": {
+  "abstract" : [
+    {
+      "text" : "A structure that indicates the availability of data at the requested location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailability"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailability"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAvailability",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind": {
+  "abstract" : [
+    {
+      "text" : "The availability kind.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityKind"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityKind"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAvailability.AvailabilityKind",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/temporarilyUnavailable": {
+  "abstract" : [
+    {
+      "text" : "The data is supported for the location but is temporarily unavailable.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "temporarilyUnavailable"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/temporarilyUnavailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherAvailability.AvailabilityKind.temporarilyUnavailable",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/temporarilyunavailable"
+}
+}
+}

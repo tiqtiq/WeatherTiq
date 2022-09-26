@@ -1,0 +1,580 @@
+{
+  "abstract" : [
+    {
+      "text" : "An error encountered when parsing a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "or ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value from a string.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq12ParsingErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ParsingError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ParsingError"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "ParsingError"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ParsingError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/s5ErrorP",
+        "doc:\/\/WeatherTiq\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/conflict",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidCoordinate",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidDirection",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidLatitudeBand",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidRangeDegrees",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidRangeMinutes",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidRangeSeconds",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidZone",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/noMatch",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/notFound(name:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/Equatable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/Error-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/parsingerror"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError": {
+  "abstract" : [
+    {
+      "text" : "An error encountered when parsing a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "or ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingError",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/error-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/conflict": {
+  "abstract" : [
+    {
+      "text" : "The suffix and prefix of the coordinate string contradict each other.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conflict"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/conflict",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.conflict",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/conflict"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/invalidCoordinate": {
+  "abstract" : [
+    {
+      "text" : "The matched coordinate is not valid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidCoordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidCoordinate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidCoordinate",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/invalidcoordinate"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/invalidDirection": {
+  "abstract" : [
+    {
+      "text" : "The expected orientation does not match the parsed direction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidDirection"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidDirection",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidDirection",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/invaliddirection"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/invalidLatitudeBand": {
+  "abstract" : [
+    {
+      "text" : "The parsed ",
+      "type" : "text"
+    },
+    {
+      "code" : "UTMLatitudeBand",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is invalid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidLatitudeBand"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidLatitudeBand",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidLatitudeBand",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/invalidlatitudeband"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/invalidRangeDegrees": {
+  "abstract" : [
+    {
+      "text" : "The matched degrees is outside the expected range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRangeDegrees"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidRangeDegrees",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidRangeDegrees",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/invalidrangedegrees"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/invalidRangeMinutes": {
+  "abstract" : [
+    {
+      "text" : "The matched minutes are outside the expected range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRangeMinutes"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidRangeMinutes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidRangeMinutes",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/invalidrangeminutes"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/invalidRangeSeconds": {
+  "abstract" : [
+    {
+      "text" : "The matched seconds are outside the expected range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidRangeSeconds"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidRangeSeconds",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidRangeSeconds",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/invalidrangeseconds"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/invalidZone": {
+  "abstract" : [
+    {
+      "text" : "The parsed ",
+      "type" : "text"
+    },
+    {
+      "code" : "UTMGridZone",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is invalid.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidZone"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/invalidZone",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.invalidZone",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/invalidzone"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/noMatch": {
+  "abstract" : [
+    {
+      "text" : "No match found",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "noMatch"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/noMatch",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.noMatch",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/nomatch"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError/notFound(name:)": {
+  "abstract" : [
+    {
+      "text" : "The named string was not found.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "notFound"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError\/notFound(name:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ParsingError.notFound(name:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror\/notfound(name:)"
+},
+"doc://WeatherTiq/s5ErrorP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s8SendableP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

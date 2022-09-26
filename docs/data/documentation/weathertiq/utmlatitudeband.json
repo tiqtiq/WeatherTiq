@@ -1,0 +1,884 @@
+{
+  "abstract" : [
+    {
+      "text" : "Each UTM longitude zone is segmented into 20 latitude bands.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq15UTMLatitudeBandO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UTMLatitudeBand"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UTMLatitudeBand"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "UTMLatitudeBand"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UTMLatitudeBand"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/s12CaseIterableP",
+        "doc:\/\/WeatherTiq\/SL",
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/SH",
+        "doc:\/\/WeatherTiq\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/_(_:_:)-3s2ob"
+      ],
+      "title" : "Operators"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/C",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/D",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/E",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/F",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/G",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/H",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/J",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/K",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/L",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/M",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/N",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/P",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/Q",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/R",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/S",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/T",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/U",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/V",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/W",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/X"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/Comparable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/Equatable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/utmlatitudeband"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SH": {
+  "identifier" : "doc:\/\/WeatherTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SL": {
+  "identifier" : "doc:\/\/WeatherTiq\/SL",
+  "title" : "Swift.Comparable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SY": {
+  "identifier" : "doc:\/\/WeatherTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand": {
+  "abstract" : [
+    {
+      "text" : "Each UTM longitude zone is segmented into 20 latitude bands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : " Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/C": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "C"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/C",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.C",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/c"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/Comparable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/Comparable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Comparable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/comparable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/D": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "D"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/D",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.D",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/d"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/E": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "E"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/E",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.E",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/e"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/F": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "F"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/F",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.F",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/f"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/G": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "G"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/G",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.G",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/g"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/H": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "H"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/H",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.H",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/h"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/J": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "J"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/J",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.J",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/j"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/K": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "K"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/K",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.K",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/k"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/L": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "L"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/L",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.L",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/l"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/M": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "M"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/M",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.M",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/m"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/N": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "N"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/N",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.N",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/n"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/P": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "P"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/P",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.P",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/p"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/Q": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Q"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/Q",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.Q",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/q"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/R": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "R"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/R",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.R",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/r"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/rawrepresentable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/S": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "S"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/S",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.S",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/s"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/T": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/T",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.T",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/t"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/U": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "U"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/U",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.U",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/u"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/V": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "V"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/V",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.V",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/v"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/W": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "W"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/W",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.W",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/w"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/X": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "X"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/X",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand.X",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/x"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/_(_:_:)-3s2ob": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "<"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq15UTMLatitudeBandO",
+      "text" : "UTMLatitudeBand"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq15UTMLatitudeBandO",
+      "text" : "UTMLatitudeBand"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/_(_:_:)-3s2ob",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "<(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/_(_:_:)-3s2ob"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband\/init(rawvalue:)"
+},
+"doc://WeatherTiq/s12CaseIterableP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

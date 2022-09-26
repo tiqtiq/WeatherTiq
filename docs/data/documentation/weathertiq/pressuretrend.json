@@ -1,0 +1,457 @@
+{
+  "abstract" : [
+    {
+      "text" : "The atmospheric pressure change over time.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq13PressureTrendO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "PressureTrend"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "PressureTrend"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "PressureTrend"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "PressureTrend"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/s12CaseIterableP",
+        "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/WeatherTiq\/Se",
+        "doc:\/\/WeatherTiq\/SE",
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/SH",
+        "doc:\/\/WeatherTiq\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/falling",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/rising",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/steady"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/accessibilityDescription",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/description"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/Equatable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/pressuretrend"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SE": {
+  "identifier" : "doc:\/\/WeatherTiq\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SH": {
+  "identifier" : "doc:\/\/WeatherTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SY": {
+  "identifier" : "doc:\/\/WeatherTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/Se": {
+  "identifier" : "doc:\/\/WeatherTiq\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend": {
+  "abstract" : [
+    {
+      "text" : "The atmospheric pressure change over time.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PressureTrend"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PressureTrend"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PressureTrend",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/rawrepresentable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/accessibilityDescription": {
+  "abstract" : [
+    {
+      "text" : "A localized accessibility description describing the pressure change over time,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "suitable for Voice Over and other assistive technologies.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/accessibilityDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/accessibilitydescription"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/description": {
+  "abstract" : [
+    {
+      "text" : "The localized string describing the pressure trend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/description"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/falling": {
+  "abstract" : [
+    {
+      "text" : "The pressure is falling.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "falling"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/falling",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PressureTrend.falling",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/falling"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/init(rawvalue:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/rising": {
+  "abstract" : [
+    {
+      "text" : "The pressure is rising.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rising"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/rising",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PressureTrend.rising",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/rising"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend/steady": {
+  "abstract" : [
+    {
+      "text" : "The pressure is not changing.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "steady"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend\/steady",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PressureTrend.steady",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend\/steady"
+},
+"doc://WeatherTiq/s12CaseIterableP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

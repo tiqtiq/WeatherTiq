@@ -1,0 +1,544 @@
+{
+  "abstract" : [
+    {
+      "text" : "The form of precipitation.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq13PrecipitationO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Precipitation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Precipitation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "Precipitation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Precipitation"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/s12CaseIterableP",
+        "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/WeatherTiq\/Se",
+        "doc:\/\/WeatherTiq\/SE",
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/SH",
+        "doc:\/\/WeatherTiq\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/hail",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/mixed",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/none",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/rain",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/sleet",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/snow"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/accessibilityDescription",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/description"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/Equatable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/precipitation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SE": {
+  "identifier" : "doc:\/\/WeatherTiq\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SH": {
+  "identifier" : "doc:\/\/WeatherTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SY": {
+  "identifier" : "doc:\/\/WeatherTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/Se": {
+  "identifier" : "doc:\/\/WeatherTiq\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation": {
+  "abstract" : [
+    {
+      "text" : "The form of precipitation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Precipitation"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Precipitation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Precipitation",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/rawrepresentable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/accessibilityDescription": {
+  "abstract" : [
+    {
+      "text" : "A localized accessibility description describing the form of precipitation, suitable for",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Voice Over and other assistive technologies.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/accessibilityDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/accessibilitydescription"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/description": {
+  "abstract" : [
+    {
+      "text" : "A localized string describing the form of precipitation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/description"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/hail": {
+  "abstract" : [
+    {
+      "text" : "A form of precipitation consisting of solid ice.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hail"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/hail",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Precipitation.hail",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/hail"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/init(rawvalue:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/mixed": {
+  "abstract" : [
+    {
+      "text" : "Mixed precipitation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mixed"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/mixed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Precipitation.mixed",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/mixed"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/none": {
+  "abstract" : [
+    {
+      "text" : "No precipitation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "none"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/none",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Precipitation.none",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/none"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/rain": {
+  "abstract" : [
+    {
+      "text" : "Rain.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rain"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/rain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Precipitation.rain",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/rain"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/sleet": {
+  "abstract" : [
+    {
+      "text" : "A form of precipitation consisting of ice pellets.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sleet"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/sleet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Precipitation.sleet",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/sleet"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation/snow": {
+  "abstract" : [
+    {
+      "text" : "Snow.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "snow"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation\/snow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Precipitation.snow",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation\/snow"
+},
+"doc://WeatherTiq/s12CaseIterableP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

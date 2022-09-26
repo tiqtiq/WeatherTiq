@@ -1,0 +1,963 @@
+{
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@WeatherTiq@objc(cs)LocationDegreesFormatter",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LocationDegreesFormatter"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LocationDegreesFormatter"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LocationDegreesFormatter"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LocationDegreesFormatter"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Instances of LocationDegreesFormatter create string representations of ",
+              "type" : "text"
+            },
+            {
+              "code" : "Degrees",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " values,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "and convert textual representations of degrees into ",
+              "type" : "text"
+            },
+            {
+              "code" : "Degrees",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " values.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Formatting a degree using a format and symbol style:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let formatter = LocationDegreesFormatter()",
+            "formatter.format = .decimalDegrees",
+            "formatter.symbolStyle = .simple",
+            "format.displayOptions = [.suffix]",
+            "",
+            "formatter.string(from: -122.77527)",
+            "\/\/ \"122.77527° W\""
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/objc(pl)NSCoding",
+        "doc:\/\/WeatherTiq\/objc(pl)NSCopying",
+        "doc:\/\/WeatherTiq\/objc(pl)NSObject",
+        "doc:\/\/WeatherTiq\/s7CVarArgP",
+        "doc:\/\/WeatherTiq\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/init()",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/init(format:displayOptions:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/displayOptions",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/format",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/maximumDegreesFractionDigits",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/minimumDegreesFractionDigits",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/orientation",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/parsingOptions",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/symbolStyle"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/getObjectValue(_:for:errorDescription:)",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/locationDegrees(from:orientation:)",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/string(for:)",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/string(from:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/locationdegreesformatter"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SH": {
+  "identifier" : "doc:\/\/WeatherTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationDegreesFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/displayOptions": {
+  "abstract" : [
+    {
+      "text" : "Options for display",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "displayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/displayOptions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "displayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/displayoptions"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/format": {
+  "abstract" : [
+    {
+      "text" : "The coordinate format used by the receiver.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "format"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq16CoordinateFormatO",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/format",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "format",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/format"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/getObjectValue(_:for:errorDescription:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getObjectValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SA",
+      "text" : "AutoreleasingUnsafeMutablePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s9AnyObjecta",
+      "text" : "AnyObject"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "errorDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SA",
+      "text" : "AutoreleasingUnsafeMutablePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSString",
+      "text" : "NSString"
+    },
+    {
+      "kind" : "text",
+      "text" : "?>?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/getObjectValue(_:for:errorDescription:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getObjectValue(_:for:errorDescription:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/getobjectvalue(_:for:errordescription:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/init()"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/init(format:displayOptions:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "format"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq16CoordinateFormatO",
+      "text" : "CoordinateFormat"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "displayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq14DisplayOptionsV",
+      "text" : "DisplayOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/init(format:displayOptions:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(format:displayOptions:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/init(format:displayoptions:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/locationDegrees(from:orientation:)": {
+  "abstract" : [
+    {
+      "text" : "Parse a Degrees for a given string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "locationDegrees"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "orientation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq21CoordinateOrientationO",
+      "text" : "CoordinateOrientation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq7Degreesa",
+      "text" : "Degrees"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/locationDegrees(from:orientation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "locationDegrees(from:orientation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/locationdegrees(from:orientation:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/maximumDegreesFractionDigits": {
+  "abstract" : [
+    {
+      "text" : "The maximum number of digits after the decimal separator for degrees.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maximumDegreesFractionDigits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/maximumDegreesFractionDigits",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maximumDegreesFractionDigits",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/maximumdegreesfractiondigits"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/minimumDegreesFractionDigits": {
+  "abstract" : [
+    {
+      "text" : "The minimum number of digits after the decimal separator for degrees.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "minimumDegreesFractionDigits"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/minimumDegreesFractionDigits",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "minimumDegreesFractionDigits",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/minimumdegreesfractiondigits"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/orientation": {
+  "abstract" : [
+    {
+      "text" : "Defines whether a coordinate is expected to represent latitude or longitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "orientation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq21CoordinateOrientationO",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/orientation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "orientation",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/orientation"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/parsingOptions": {
+  "abstract" : [
+    {
+      "text" : "Options for parsing degree values from strings.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "parsingOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq14ParsingOptionsV",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/parsingOptions",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "parsingOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/parsingoptions"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/string(for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/string(for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "string(for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/string(for:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/string(from:)": {
+  "abstract" : [
+    {
+      "text" : "Returns a string containing the formatted value of the provided ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq7Degreesa",
+      "text" : "Degrees"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/string(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "string(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/string(from:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter/symbolStyle": {
+  "abstract" : [
+    {
+      "text" : "Defines the characters used to annotate coordinate components.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbolStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq11SymbolStyleO",
+      "text" : "SymbolStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter\/symbolStyle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "symbolStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter\/symbolstyle"
+},
+"doc://WeatherTiq/objc(pl)NSCoding": {
+  "identifier" : "doc:\/\/WeatherTiq\/objc(pl)NSCoding",
+  "title" : "Foundation.NSCoding",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/objc(pl)NSCopying": {
+  "identifier" : "doc:\/\/WeatherTiq\/objc(pl)NSCopying",
+  "title" : "Foundation.NSCopying",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/WeatherTiq\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s7CVarArgP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}

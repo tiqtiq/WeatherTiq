@@ -1,0 +1,417 @@
+{
+  "abstract" : [
+    {
+      "text" : "The availability kind.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq0A12AvailabilityV0C4KindO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AvailabilityKind"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AvailabilityKind"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "WeatherAvailability.AvailabilityKind"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AvailabilityKind"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/Se",
+        "doc:\/\/WeatherTiq\/SE",
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/SH",
+        "doc:\/\/WeatherTiq\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/available",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/temporarilyUnavailable",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/unknown",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/unsupported"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/Equatable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/weatheravailability\/availabilitykind"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SE": {
+  "identifier" : "doc:\/\/WeatherTiq\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SH": {
+  "identifier" : "doc:\/\/WeatherTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SY": {
+  "identifier" : "doc:\/\/WeatherTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/Se": {
+  "identifier" : "doc:\/\/WeatherTiq\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability": {
+  "abstract" : [
+    {
+      "text" : "A structure that indicates the availability of data at the requested location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailability"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailability"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAvailability",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind": {
+  "abstract" : [
+    {
+      "text" : "The availability kind.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityKind"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AvailabilityKind"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAvailability.AvailabilityKind",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/rawrepresentable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/available": {
+  "abstract" : [
+    {
+      "text" : "The data is available.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "available"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/available",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherAvailability.AvailabilityKind.available",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/available"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/init(rawvalue:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/temporarilyUnavailable": {
+  "abstract" : [
+    {
+      "text" : "The data is supported for the location but is temporarily unavailable.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "temporarilyUnavailable"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/temporarilyUnavailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherAvailability.AvailabilityKind.temporarilyUnavailable",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/temporarilyunavailable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/unknown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknown"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/unknown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherAvailability.AvailabilityKind.unknown",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/unknown"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability/AvailabilityKind/unsupported": {
+  "abstract" : [
+    {
+      "text" : "The data isn’t supported for the location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unsupported"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability\/AvailabilityKind\/unsupported",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherAvailability.AvailabilityKind.unsupported",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability\/availabilitykind\/unsupported"
+}
+}
+}

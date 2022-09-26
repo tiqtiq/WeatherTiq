@@ -1,0 +1,1842 @@
+{
+  "abstract" : [
+    {
+      "text" : "",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "WeatherTiq",
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "WeatherTiq"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinateFormatter",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherService"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CurrentWeatherSPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/DayForecastSPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourForecastSPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MinuteForecastSPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAlertSPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailabilitySPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherServiceSPI"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CurrentWeather",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/DayWeather",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/DisplayOptions",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Forecast",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MinuteWeather",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonEvents",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingOptions",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMDatum",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UVIndex",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Weather",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAlert",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttribution",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherMetadata",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherQuery",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Wind"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Coordinate",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Degrees",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Location",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMGridZone"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateFormat",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateHemisphere",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateOrientation",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SymbolStyle",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMHemisphere",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherError",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSeverity"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Coordinate": {
+  "abstract" : [
+    {
+      "text" : "An abastraction of a latitude and longitude",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Coordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Coordinate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Coordinate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Coordinate",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/coordinate"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/CoordinateFormat": {
+  "abstract" : [
+    {
+      "text" : "The format uses to represent a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value as a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateFormat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateFormat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateFormat",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/coordinateformat"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/CoordinateHemisphere": {
+  "abstract" : [
+    {
+      "text" : "The hemisphere of either a latitude or longitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateHemisphere"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateHemisphere",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateHemisphere"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateHemisphere",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/coordinatehemisphere"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/CoordinateOrientation": {
+  "abstract" : [
+    {
+      "text" : "Defines whether a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is intended to represent latitude or longitude.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CoordinateOrientation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoordinateOrientation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoordinateOrientation",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/coordinateorientation"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/CurrentWeather": {
+  "abstract" : [
+    {
+      "text" : "A structure that describes the current conditions observed at the requested location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CurrentWeather"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CurrentWeather",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CurrentWeather"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CurrentWeather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/currentweather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/CurrentWeatherSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CurrentWeatherSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/CurrentWeatherSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CurrentWeatherSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CurrentWeatherSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/currentweatherspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/DayForecastSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DayForecastSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/DayForecastSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DayForecastSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DayForecastSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/dayforecastspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/DayWeather": {
+  "abstract" : [
+    {
+      "text" : "A structure that represents the weather conditions for the day.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DayWeather"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/DayWeather",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DayWeather"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DayWeather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/dayweather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Degrees": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Degrees"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Degrees",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Degrees"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Degrees",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/degrees"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/DisplayOptions": {
+  "abstract" : [
+    {
+      "text" : "Display options",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/DisplayOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DisplayOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DisplayOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/displayoptions"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Forecast": {
+  "abstract" : [
+    {
+      "text" : "A forecast collection for minute, hourly, and daily forecasts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Forecast"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Forecast",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Forecast"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Forecast",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/forecast"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourForecastSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HourForecastSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourForecastSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HourForecastSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HourForecastSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourforecastspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather": {
+  "abstract" : [
+    {
+      "text" : "A structure that represents the weather conditions for the hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HourWeather"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HourWeather"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HourWeather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Location": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Location",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/location"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between Coordinate values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationcoordinateformatter"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/LocationDegreesFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their textual representations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/LocationDegreesFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationDegreesFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationDegreesFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/locationdegreesformatter"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MinuteForecastSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MinuteForecastSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MinuteForecastSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MinuteForecastSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MinuteForecastSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/minuteforecastspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MinuteWeather": {
+  "abstract" : [
+    {
+      "text" : "A structure that represents the next hour minute forecasts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MinuteWeather"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MinuteWeather",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MinuteWeather"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MinuteWeather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/minuteweather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonEvents": {
+  "abstract" : [
+    {
+      "text" : "A structure that represents lunar events, including the moon phase, moonrise, and moonset.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MoonEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonEvents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MoonEvents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MoonEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonevents"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase": {
+  "abstract" : [
+    {
+      "text" : "An enumeration that specifies the moon phase kind.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MoonPhase"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MoonPhase"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MoonPhase",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingError": {
+  "abstract" : [
+    {
+      "text" : "An error encountered when parsing a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "or ",
+      "type" : "text"
+    },
+    {
+      "code" : "Degrees",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " value from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingError",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingerror"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/ParsingOptions": {
+  "abstract" : [
+    {
+      "text" : "Options affecting how a coordinate is parsed from a string.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/ParsingOptions",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsingOptions"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsingOptions",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/parsingoptions"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Precipitation": {
+  "abstract" : [
+    {
+      "text" : "The form of precipitation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Precipitation"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Precipitation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Precipitation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Precipitation",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/precipitation"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/PressureTrend": {
+  "abstract" : [
+    {
+      "text" : "The atmospheric pressure change over time.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PressureTrend"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/PressureTrend",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PressureTrend"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PressureTrend",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/pressuretrend"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents": {
+  "abstract" : [
+    {
+      "text" : "An enumeration that represents dates of solar events, including sunrise, sunset, dawn, and dusk.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SunEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SunEvents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SunEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SymbolStyle": {
+  "abstract" : [
+    {
+      "text" : "Defines the characters used to annotate coordinate components.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SymbolStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SymbolStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SymbolStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SymbolStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/symbolstyle"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinate": {
+  "abstract" : [
+    {
+      "text" : "Universal Transverse Mercator (UTM) coordinate which divies the earth into 60 different zones. The coordinates northing and easting are relative to the specified zone, and are also relative to the hemisphere.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMCoordinate",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinate"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMCoordinateFormatter": {
+  "abstract" : [
+    {
+      "text" : "A formatter that converts between ",
+      "type" : "text"
+    },
+    {
+      "code" : "Coordinate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " values and their string representations using the Universal Transverse Mercator (UTM) coordinate system.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinateFormatter"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMCoordinateFormatter",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMCoordinateFormatter"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMCoordinateFormatter",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmcoordinateformatter"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMDatum": {
+  "abstract" : [
+    {
+      "text" : "Geodetic datum to define the size of the earth, given as equitorial and polar radius.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMDatum"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMDatum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMDatum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMDatum",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmdatum"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMGridZone": {
+  "abstract" : [
+    {
+      "text" : "UTM grid zone is a positive number between 1 and 60",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMGridZone"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMGridZone",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMGridZone"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMGridZone",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmgridzone"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMHemisphere": {
+  "abstract" : [
+    {
+      "text" : "UTM hemisphere, an enum used to represent the two hemispheres on the earth",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMHemisphere"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMHemisphere",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMHemisphere"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMHemisphere",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmhemisphere"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UTMLatitudeBand": {
+  "abstract" : [
+    {
+      "text" : "Each UTM longitude zone is segmented into 20 latitude bands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMLatitudeBand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UTMLatitudeBand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UTMLatitudeBand",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/utmlatitudeband"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/UVIndex": {
+  "abstract" : [
+    {
+      "text" : "The expected intensity of ultraviolet radiation from the sun.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UVIndex"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UVIndex",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UVIndex"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UVIndex",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/uvindex"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Weather": {
+  "abstract" : [
+    {
+      "text" : "Wrapper model representing the aggregate weather data requested by the caller.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Weather"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Weather",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Weather"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Weather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAlert": {
+  "abstract" : [
+    {
+      "text" : "A weather alert issued for the requested  location by a governmental authority.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAlert"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAlert",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAlert"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAlert",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheralert"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAlertSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAlertSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAlertSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAlertSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAlertSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheralertspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttribution": {
+  "abstract" : [
+    {
+      "text" : "A structure that  defines the necessary information for attributing a weather data provider.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttribution"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttribution",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttribution"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAttribution",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattribution"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttributionSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttributionSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttributionSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAttributionSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattributionspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailability": {
+  "abstract" : [
+    {
+      "text" : "A structure that indicates the availability of data at the requested location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailability"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailability",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailability"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAvailability",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailability"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAvailabilitySPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailabilitySPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAvailabilitySPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAvailabilitySPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAvailabilitySPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatheravailabilityspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition": {
+  "abstract" : [
+    {
+      "text" : "A description of the current weather condition.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherCondition"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherCondition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherCondition",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherError": {
+  "abstract" : [
+    {
+      "text" : "An error WeatherTiq returns.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherError"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherError",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathererror"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherMetadata": {
+  "abstract" : [
+    {
+      "text" : "A structure that provides additional weather information.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherMetadata"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherMetadata",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherMetadata"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathermetadata"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherQuery": {
+  "abstract" : [
+    {
+      "text" : "A structure that encapsulates a generic weather dataset request.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherQuery"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherQuery",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherQuery"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherQuery",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherquery"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherService": {
+  "abstract" : [
+    {
+      "code" : "WeatherService",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is the entry point into the ",
+      "type" : "text"
+    },
+    {
+      "code" : "WeatherTiq",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " service.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherService"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherService",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherservice"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherServiceSPI": {
+  "abstract" : [
+    {
+      "text" : "A WeatherServiceAPI is an abstraction of a weather service",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherServiceSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherServiceSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherServiceSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherServiceSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherservicespi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherSeverity": {
+  "abstract" : [
+    {
+      "text" : "A description of the severity of the severe weather event.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherSeverity"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherSeverity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherSeverity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherSeverity",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherseverity"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/Wind": {
+  "abstract" : [
+    {
+      "text" : "Contains wind data of speed, direction, and gust.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Wind"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Wind",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Wind"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Wind",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/wind"
+}
+}
+}

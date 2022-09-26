@@ -1,0 +1,674 @@
+{
+  "abstract" : [
+    {
+      "text" : "An enumeration that specifies the moon phase kind.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq9MoonPhaseO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "MoonPhase"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "MoonPhase"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "MoonPhase"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "MoonPhase"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Waxing and waning provide information about direction. Crescent",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "and gibbous describe shape.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/s12CaseIterableP",
+        "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/WeatherTiq\/Se",
+        "doc:\/\/WeatherTiq\/SE",
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/SH",
+        "doc:\/\/WeatherTiq\/SY",
+        "doc:\/\/WeatherTiq\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/firstQuarter",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/full",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/lastQuarter",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/new",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waningCrescent",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waningGibbous",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waxingCrescent",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waxingGibbous"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/accessibilityDescription",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/description",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/symbolName"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/Equatable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/moonphase"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SE": {
+  "identifier" : "doc:\/\/WeatherTiq\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SH": {
+  "identifier" : "doc:\/\/WeatherTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SY": {
+  "identifier" : "doc:\/\/WeatherTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/Se": {
+  "identifier" : "doc:\/\/WeatherTiq\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase": {
+  "abstract" : [
+    {
+      "text" : "An enumeration that specifies the moon phase kind.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MoonPhase"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MoonPhase"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "MoonPhase",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/rawrepresentable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/accessibilityDescription": {
+  "abstract" : [
+    {
+      "text" : "A localized accessibility description describing the moon phase, suitable for Voice Over",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and other assistive technologies.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/accessibilityDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/accessibilitydescription"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/description": {
+  "abstract" : [
+    {
+      "text" : "A localized string describing the moon phase.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/description"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/firstQuarter": {
+  "abstract" : [
+    {
+      "text" : "The disk is half lit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "firstQuarter"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/firstQuarter",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.firstQuarter",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/firstquarter"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/full": {
+  "abstract" : [
+    {
+      "text" : "The disk is fully lit where the moon is visible.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "full"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/full",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.full",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/full"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/init(rawvalue:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/lastQuarter": {
+  "abstract" : [
+    {
+      "text" : "The disk is half lit.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lastQuarter"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/lastQuarter",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.lastQuarter",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/lastquarter"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/new": {
+  "abstract" : [
+    {
+      "text" : "The disk is unlit where the moon is not visible.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "new"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/new",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.new",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/new"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/symbolName": {
+  "abstract" : [
+    {
+      "text" : "The SF Symbol icon that represents the moon phase.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbolName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/symbolName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "symbolName",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/symbolname"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/waningCrescent": {
+  "abstract" : [
+    {
+      "text" : "The disk is partially lit as the moon is waning.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "waningCrescent"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waningCrescent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.waningCrescent",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/waningcrescent"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/waningGibbous": {
+  "abstract" : [
+    {
+      "text" : "The disk is half lit as the moon is waning.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "waningGibbous"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waningGibbous",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.waningGibbous",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/waninggibbous"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/waxingCrescent": {
+  "abstract" : [
+    {
+      "text" : "The disk is partially lit as the moon is waxing.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "waxingCrescent"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waxingCrescent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.waxingCrescent",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/waxingcrescent"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/MoonPhase/waxingGibbous": {
+  "abstract" : [
+    {
+      "text" : "The disk is half lit as the moon is waxing.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "waxingGibbous"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/MoonPhase\/waxingGibbous",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "MoonPhase.waxingGibbous",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/moonphase\/waxinggibbous"
+},
+"doc://WeatherTiq/s12CaseIterableP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s8SendableP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,400 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq0A14AttributionSPIP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "WeatherAttributionSPI"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "WeatherAttributionSPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "WeatherAttributionSPI"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "WeatherAttributionSPI"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttribution"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/combinedMarkDarkURL",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/combinedMarkLightURL",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/legalPageURL",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/serviceName",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/squareMarkURL"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/weatherattributionspi"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttribution": {
+  "abstract" : [
+    {
+      "text" : "A structure that  defines the necessary information for attributing a weather data provider.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttribution"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttribution",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttribution"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAttribution",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattribution"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttributionSPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttributionSPI"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherAttributionSPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherAttributionSPI",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattributionspi"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttributionSPI/combinedMarkDarkURL": {
+  "abstract" : [
+    {
+      "text" : "A URL for the combined “",
+      "type" : "text"
+    },
+    {
+      "text" : "” mark, in dark variant.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "combinedMarkDarkURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/combinedMarkDarkURL",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "combinedMarkDarkURL",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattributionspi\/combinedmarkdarkurl"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttributionSPI/combinedMarkLightURL": {
+  "abstract" : [
+    {
+      "text" : "A URL for the combined “",
+      "type" : "text"
+    },
+    {
+      "text" : "” mark, in light variant.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "combinedMarkLightURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/combinedMarkLightURL",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "combinedMarkLightURL",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattributionspi\/combinedmarklighturl"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttributionSPI/legalPageURL": {
+  "abstract" : [
+    {
+      "text" : "A link to the legal attribution page that contains copyright information about the weather data sources.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "legalPageURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/legalPageURL",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "legalPageURL",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattributionspi\/legalpageurl"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttributionSPI/serviceName": {
+  "abstract" : [
+    {
+      "text" : "The weather data provider name.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "serviceName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/serviceName",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "serviceName",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattributionspi\/servicename"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherAttributionSPI/squareMarkURL": {
+  "abstract" : [
+    {
+      "text" : "A URL for the square mark.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "squareMarkURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherAttributionSPI\/squareMarkURL",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "squareMarkURL",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weatherattributionspi\/squaremarkurl"
+}
+}
+}

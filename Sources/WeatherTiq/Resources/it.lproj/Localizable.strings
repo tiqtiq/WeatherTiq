@@ -1,0 +1,7 @@
+// Italian strings for WeatherTiq.
+// Translators wanted! Simply edit this file…
+
+"OK" = "OK";
+"Cancel" = "Annulla";
+"Welcome to %@!" = "Benvenuto su %@!";
+

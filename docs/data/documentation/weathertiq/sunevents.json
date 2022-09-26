@@ -1,0 +1,669 @@
+{
+  "abstract" : [
+    {
+      "text" : "An enumeration that represents dates of solar events, including sunrise, sunset, dawn, and dusk.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq9SunEventsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SunEvents"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SunEvents"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "SunEvents"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SunEvents"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/Se",
+        "doc:\/\/WeatherTiq\/SE",
+        "doc:\/\/WeatherTiq\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/astronomicalDawn",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/astronomicalDusk",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/civilDawn",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/civilDusk",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/nauticalDawn",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/nauticalDusk",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/solarMidnight",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/solarNoon",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/sunrise",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/sunset"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/sunevents"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SE": {
+  "identifier" : "doc:\/\/WeatherTiq\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/Se": {
+  "identifier" : "doc:\/\/WeatherTiq\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents": {
+  "abstract" : [
+    {
+      "text" : "An enumeration that represents dates of solar events, including sunrise, sunset, dawn, and dusk.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SunEvents"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SunEvents"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SunEvents",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/astronomicalDawn": {
+  "abstract" : [
+    {
+      "text" : "The time of astronomical sunrise when the sun’s center is 18° below the horizon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "astronomicalDawn"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/astronomicalDawn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "astronomicalDawn",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/astronomicaldawn"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/astronomicalDusk": {
+  "abstract" : [
+    {
+      "text" : "The time of astronomical sunset, when the sun’s center is 18° below the horizon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "astronomicalDusk"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/astronomicalDusk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "astronomicalDusk",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/astronomicaldusk"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/civilDawn": {
+  "abstract" : [
+    {
+      "text" : "The time of civil sunrise when the sun’s center is 6° below the horizon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "civilDawn"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/civilDawn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "civilDawn",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/civildawn"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/civilDusk": {
+  "abstract" : [
+    {
+      "text" : "The time of civil sunset, when the sun’s center is 6° below the horizon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "civilDusk"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/civilDusk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "civilDusk",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/civildusk"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/init(from:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/nauticalDawn": {
+  "abstract" : [
+    {
+      "text" : "The time of nautical sunrise when the sun’s center is 12° below the horizon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nauticalDawn"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/nauticalDawn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "nauticalDawn",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/nauticaldawn"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/nauticalDusk": {
+  "abstract" : [
+    {
+      "text" : "The time of nautical sunset, when the sun’s center is 12° below the horizon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nauticalDusk"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/nauticalDusk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "nauticalDusk",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/nauticaldusk"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/solarMidnight": {
+  "abstract" : [
+    {
+      "text" : "Represents solar midnight, the time when the sun reaches its lowest point in the sky.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "solarMidnight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/solarMidnight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "solarMidnight",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/solarmidnight"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/solarNoon": {
+  "abstract" : [
+    {
+      "text" : "Represents solar noon, the time when the sun reaches its highest point in the sky.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "solarNoon"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/solarNoon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "solarNoon",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/solarnoon"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/sunrise": {
+  "abstract" : [
+    {
+      "text" : "The sunrise time immediately before the solar transit closest to calendar noon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sunrise"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/sunrise",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sunrise",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/sunrise"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/SunEvents/sunset": {
+  "abstract" : [
+    {
+      "text" : "The sunset time immediately after the solar transit closest to calendar noon.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sunset"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/SunEvents\/sunset",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sunset",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/sunevents\/sunset"
+}
+}
+}

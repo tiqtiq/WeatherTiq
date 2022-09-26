@@ -1,0 +1,1045 @@
+{
+  "abstract" : [
+    {
+      "text" : "A structure that represents the weather conditions for the hour.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq04HourA0V",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HourWeather"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HourWeather"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "HourWeather"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HourWeather"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/Se",
+        "doc:\/\/WeatherTiq\/SE",
+        "doc:\/\/WeatherTiq\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/apparentTemperature",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/cloudCover",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/condition",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/date",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/dewPoint",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/humidity",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/isDaylight",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/precipitation",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/precipitationAmount",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/precipitationChance",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/pressure",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/pressureTrend",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/symbolName",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/temperature",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/uvIndex",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/visibility",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/wind"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/hourweather"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SE": {
+  "identifier" : "doc:\/\/WeatherTiq\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/Se": {
+  "identifier" : "doc:\/\/WeatherTiq\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather": {
+  "abstract" : [
+    {
+      "text" : "A structure that represents the weather conditions for the hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HourWeather"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HourWeather"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HourWeather",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/apparentTemperature": {
+  "abstract" : [
+    {
+      "text" : "The apparent or “feels like” temperature during the hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "apparentTemperature"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11MeasurementV",
+      "text" : "Measurement"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUnitTemperature",
+      "text" : "UnitTemperature"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/apparentTemperature",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "apparentTemperature",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/apparenttemperature"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/cloudCover": {
+  "abstract" : [
+    {
+      "text" : "Fraction of cloud cover, from 0 to 1. Cloud cover describes the fraction of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "sky obscured by clouds when observed from a given location.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cloudCover"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/cloudCover",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cloudCover",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/cloudcover"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/condition": {
+  "abstract" : [
+    {
+      "text" : "A description of the weather condition for this hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "condition"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq0A9ConditionO",
+      "text" : "WeatherCondition"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/condition",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "condition",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/condition"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/date": {
+  "abstract" : [
+    {
+      "text" : "The start date of the hour weather.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "date"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DateV",
+      "text" : "Date"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/date",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "date",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/date"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/dewPoint": {
+  "abstract" : [
+    {
+      "text" : "The dew point, which describes the amount of moisture in the air, is the temperature at which air",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "is saturated with water vapor.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dewPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11MeasurementV",
+      "text" : "Measurement"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUnitTemperature",
+      "text" : "UnitTemperature"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/dewPoint",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dewPoint",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/dewpoint"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/humidity": {
+  "abstract" : [
+    {
+      "text" : "The humidity for the hour, from 0 to 1, inclusive. Relative humidity measures the amount of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "water vapor in the air compared to the maximum amount that the air could normally",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "hold at the current temperature.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "humidity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/humidity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "humidity",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/humidity"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/init(from:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/isDaylight": {
+  "abstract" : [
+    {
+      "text" : "The presence or absence of daylight at the requested location and hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isDaylight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/isDaylight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isDaylight",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/isdaylight"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/precipitation": {
+  "abstract" : [
+    {
+      "text" : "Description of precipitation for this hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "precipitation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq13PrecipitationO",
+      "text" : "Precipitation"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/precipitation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "precipitation",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/precipitation"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/precipitationAmount": {
+  "abstract" : [
+    {
+      "text" : "The amount of precipitation for the hour. This value refers to the liquid equivalent of all",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "precipitation amounts.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "precipitationAmount"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11MeasurementV",
+      "text" : "Measurement"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUnitLength",
+      "text" : "UnitLength"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/precipitationAmount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "precipitationAmount",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/precipitationamount"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/precipitationChance": {
+  "abstract" : [
+    {
+      "text" : "The probability of precipitation during the hour, from 0 to 1.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "precipitationChance"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/precipitationChance",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "precipitationChance",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/precipitationchance"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/pressure": {
+  "abstract" : [
+    {
+      "text" : "The sea level pressure, which describes the atmospheric pressure at sea level at a given location.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "It is a reduced pressure calculated by using observed conditions to remove the effects of elevation",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "from pressure readings.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pressure"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11MeasurementV",
+      "text" : "Measurement"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUnitPressure",
+      "text" : "UnitPressure"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/pressure",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pressure",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/pressure"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/pressureTrend": {
+  "abstract" : [
+    {
+      "text" : "The pressure trend, or barometric tendency, is the kind and amount of atmospheric pressure",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "change over time.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pressureTrend"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq13PressureTrendO",
+      "text" : "PressureTrend"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/pressureTrend",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pressureTrend",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/pressuretrend"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/symbolName": {
+  "abstract" : [
+    {
+      "text" : "The SF Symbol icon that represents the hour weather condition and whether it’s daylight on the hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbolName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/symbolName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "symbolName",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/symbolname"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/temperature": {
+  "abstract" : [
+    {
+      "text" : "The temperature during the hour.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "temperature"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11MeasurementV",
+      "text" : "Measurement"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUnitTemperature",
+      "text" : "UnitTemperature"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/temperature",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "temperature",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/temperature"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/uvIndex": {
+  "abstract" : [
+    {
+      "text" : "The UV index provides the expected intensity of ultraviolet radiation from the sun.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uvIndex"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq7UVIndexV",
+      "text" : "UVIndex"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/uvIndex",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "uvIndex",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/uvindex"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/visibility": {
+  "abstract" : [
+    {
+      "text" : "The visibility for the hour. Visibility is the distance at which an object can be clearly seen",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and is affected by the amount of light and weather conditions like fog, mist, and smog.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11MeasurementV",
+      "text" : "Measurement"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSUnitLength",
+      "text" : "UnitLength"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/visibility",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "visibility",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/visibility"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/HourWeather/wind": {
+  "abstract" : [
+    {
+      "text" : "Contains wind data describing the wind speed, direction, and gust.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wind"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10WeatherTiq4WindV",
+      "text" : "Wind"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/HourWeather\/wind",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "wind",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/hourweather\/wind"
+}
+}
+}

@@ -1,0 +1,1292 @@
+{
+  "abstract" : [
+    {
+      "text" : "A description of the current weather condition.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10WeatherTiq0A9ConditionO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "WeatherCondition"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "WeatherTiq"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "WeatherCondition"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "WeatherCondition"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "WeatherCondition"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/s12CaseIterableP",
+        "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+        "doc:\/\/WeatherTiq\/Se",
+        "doc:\/\/WeatherTiq\/SE",
+        "doc:\/\/WeatherTiq\/SQ",
+        "doc:\/\/WeatherTiq\/SH",
+        "doc:\/\/WeatherTiq\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/blizzard",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/blowingDust",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/blowingSnow",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/breezy",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/clear",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/cloudy",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/drizzle",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/flurries",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/foggy",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/freezingDrizzle",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/freezingRain",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/frigid",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/hail",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/haze",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/heavyRain",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/heavySnow",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/hot",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/hurricane",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/isolatedThunderstorms",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/mostlyClear",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/mostlyCloudy",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/partlyCloudy",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/rain",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/scatteredThunderstorms",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/sleet",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/smoky",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/snow",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/strongStorms",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/sunFlurries",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/sunShowers",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/thunderstorms",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/tropicalStorm",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/windy",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/wintryMix"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/accessibilityDescription",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/description",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/localizedDescription"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/Equatable-Implementations",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/weathertiq\/weathercondition"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://WeatherTiq/SE": {
+  "identifier" : "doc:\/\/WeatherTiq\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SH": {
+  "identifier" : "doc:\/\/WeatherTiq\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SQ": {
+  "identifier" : "doc:\/\/WeatherTiq\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/SY": {
+  "identifier" : "doc:\/\/WeatherTiq\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/Se": {
+  "identifier" : "doc:\/\/WeatherTiq\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/documentation/WeatherTiq": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "WeatherTiq",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition": {
+  "abstract" : [
+    {
+      "text" : "A description of the current weather condition.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WeatherCondition"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WeatherCondition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WeatherCondition",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/equatable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/rawrepresentable-implementations"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/accessibilityDescription": {
+  "abstract" : [
+    {
+      "text" : "A localized accessibility description describing the weather condition, suitable for",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Voice Over and other assistive technologies.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/accessibilityDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/accessibilitydescription"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/blizzard": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blizzard"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/blizzard",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.blizzard",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/blizzard"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/blowingDust": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blowingDust"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/blowingDust",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.blowingDust",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/blowingdust"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/blowingSnow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blowingSnow"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/blowingSnow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.blowingSnow",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/blowingsnow"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/breezy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "breezy"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/breezy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.breezy",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/breezy"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/clear": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clear"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/clear",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.clear",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/clear"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/cloudy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cloudy"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/cloudy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.cloudy",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/cloudy"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/description": {
+  "abstract" : [
+    {
+      "text" : "Standard string describing the current condition.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/description"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/drizzle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "drizzle"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/drizzle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.drizzle",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/drizzle"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/flurries": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "flurries"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/flurries",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.flurries",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/flurries"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/foggy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "foggy"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/foggy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.foggy",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/foggy"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/freezingDrizzle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "freezingDrizzle"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/freezingDrizzle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.freezingDrizzle",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/freezingdrizzle"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/freezingRain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "freezingRain"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/freezingRain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.freezingRain",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/freezingrain"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/frigid": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "frigid"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/frigid",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.frigid",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/frigid"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/hail": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hail"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/hail",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.hail",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/hail"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/haze": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "haze"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/haze",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.haze",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/haze"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/heavyRain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "heavyRain"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/heavyRain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.heavyRain",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/heavyrain"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/heavySnow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "heavySnow"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/heavySnow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.heavySnow",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/heavysnow"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/hot": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hot"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/hot",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.hot",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/hot"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/hurricane": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hurricane"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/hurricane",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.hurricane",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/hurricane"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/init(rawvalue:)"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/isolatedThunderstorms": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isolatedThunderstorms"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/isolatedThunderstorms",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.isolatedThunderstorms",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/isolatedthunderstorms"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/localizedDescription": {
+  "abstract" : [
+    {
+      "text" : "Standard string describing the current condition.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localizedDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/localizedDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localizedDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/localizeddescription"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/mostlyClear": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mostlyClear"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/mostlyClear",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.mostlyClear",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/mostlyclear"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/mostlyCloudy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mostlyCloudy"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/mostlyCloudy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.mostlyCloudy",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/mostlycloudy"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/partlyCloudy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "partlyCloudy"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/partlyCloudy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.partlyCloudy",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/partlycloudy"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/rain": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rain"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/rain",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.rain",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/rain"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/scatteredThunderstorms": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scatteredThunderstorms"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/scatteredThunderstorms",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.scatteredThunderstorms",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/scatteredthunderstorms"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/sleet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sleet"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/sleet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.sleet",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/sleet"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/smoky": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "smoky"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/smoky",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.smoky",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/smoky"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/snow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "snow"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/snow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.snow",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/snow"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/strongStorms": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "strongStorms"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/strongStorms",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.strongStorms",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/strongstorms"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/sunFlurries": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sunFlurries"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/sunFlurries",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.sunFlurries",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/sunflurries"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/sunShowers": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sunShowers"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/sunShowers",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.sunShowers",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/sunshowers"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/thunderstorms": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "thunderstorms"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/thunderstorms",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.thunderstorms",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/thunderstorms"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/tropicalStorm": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tropicalStorm"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/tropicalStorm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.tropicalStorm",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/tropicalstorm"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/windy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "windy"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/windy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.windy",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/windy"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/WeatherCondition/wintryMix": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wintryMix"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/WeatherCondition\/wintryMix",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "WeatherCondition.wintryMix",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/weathercondition\/wintrymix"
+},
+"doc://WeatherTiq/s12CaseIterableP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://WeatherTiq/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/WeatherTiq\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}
