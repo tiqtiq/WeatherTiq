@@ -28,6 +28,14 @@
 
 import Foundation
 
+
+#if canImport(ObjectiveC)
+public typealias RefPtr = AutoreleasingUnsafeMutablePointer
+#else
+public typealias RefPtr = UnsafeMutablePointer
+#endif
+
+
 /// The format uses to represent a `Coordinate` value as a string.
 public enum CoordinateFormat: String {
 
@@ -581,9 +589,9 @@ public final class LocationDegreesFormatter: Formatter {
         return string(from: degrees)
     }
 
-    override public func getObjectValue(_ obj: AutoreleasingUnsafeMutablePointer<AnyObject?>?,
+    override public func getObjectValue(_ obj: RefPtr<AnyObject?>?,
                                         for string: String,
-                                        errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?) -> Bool {
+                                        errorDescription error: RefPtr<NSString?>?) -> Bool {
         do {
             obj?.pointee = try number(for: string)
             return obj?.pointee != nil
@@ -951,9 +959,9 @@ public final class LocationCoordinateFormatter: Formatter {
         return string(from: coordinate)
     }
 
-    override public func getObjectValue(_ obj: AutoreleasingUnsafeMutablePointer<AnyObject?>?,
+    override public func getObjectValue(_ obj: RefPtr<AnyObject?>?,
                                         for string: String,
-                                        errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?) -> Bool {
+                                        errorDescription error: RefPtr<NSString?>?) -> Bool {
         do {
             obj?.pointee = try location(from: string)
             return true
@@ -1311,9 +1319,9 @@ public final class UTMCoordinateFormatter: Formatter {
         return string(from: coordinate)
     }
 
-    override public func getObjectValue(_ obj: AutoreleasingUnsafeMutablePointer<AnyObject?>?,
+    override public func getObjectValue(_ obj: RefPtr<AnyObject?>?,
                                         for string: String,
-                                        errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?) -> Bool {
+                                        errorDescription error: RefPtr<NSString?>?) -> Bool {
         do {
             let coord = try coordinate(from: string)
             obj?.pointee = Location(latitude: coord.latitude, longitude: coord.longitude)

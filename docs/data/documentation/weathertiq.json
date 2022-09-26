@@ -90,6 +90,7 @@
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Coordinate",
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Degrees",
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/Location",
+        "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/RefPtr",
         "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/UTMGridZone"
       ],
       "title" : "Type Aliases"
@@ -979,6 +980,37 @@
   "title" : "PressureTrend",
   "type" : "topic",
   "url" : "\/documentation\/weathertiq\/pressuretrend"
+},
+"doc://WeatherTiq/documentation/WeatherTiq/RefPtr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RefPtr"
+    }
+  ],
+  "identifier" : "doc:\/\/WeatherTiq\/documentation\/WeatherTiq\/RefPtr",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RefPtr"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RefPtr",
+  "type" : "topic",
+  "url" : "\/documentation\/weathertiq\/refptr"
 },
 "doc://WeatherTiq/documentation/WeatherTiq/SunEvents": {
   "abstract" : [

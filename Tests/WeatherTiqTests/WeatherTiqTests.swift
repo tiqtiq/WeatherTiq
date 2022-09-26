@@ -25,9 +25,9 @@ final class WeatherTiqTests: XCTestCase {
         let degminsec = {
             LocationDegreesFormatter(format: .degreesMinutesSeconds, displayOptions: .compact)!.string(from: $0)
         }
-        XCTAssertEqual("0° 0' 0\"", degminsec(0))
-        XCTAssertEqual("120.33°", degminsec(120.33))
-        XCTAssertEqual("-179.0°", degminsec(-179))
+        XCTAssertEqual("0°0\'0\"", degminsec(0))
+        XCTAssertEqual("120°19\'48\"", degminsec(120.33))
+        XCTAssertEqual("-179°0\'0\"", degminsec(-179))
         XCTAssertEqual(nil, degminsec(-312.5434224))
 
     }
