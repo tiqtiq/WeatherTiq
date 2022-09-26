@@ -1,3 +1,4 @@
 # WeatherTiq
 
-A description of this package.
+A cross-platform Weather API for Swift.
+
