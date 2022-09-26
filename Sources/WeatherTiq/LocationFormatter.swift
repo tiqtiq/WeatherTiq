@@ -29,13 +29,6 @@
 import Foundation
 
 
-#if canImport(ObjectiveC)
-public typealias RefPtr = AutoreleasingUnsafeMutablePointer
-#else
-public typealias RefPtr = UnsafeMutablePointer
-#endif
-
-
 /// The format uses to represent a `Coordinate` value as a string.
 public enum CoordinateFormat: String {
 
@@ -435,6 +428,228 @@ public enum SymbolStyle {
 }
 
 
+#if canImport(ObjectiveC) // needed for AutoreleasingUnsafeMutablePointer
+
+public extension String {
+    /// Parses a coordinate value from a string.
+    ///
+    /// Attempts to recognize a valid coordinate in Decimal Degrees, Degrees Decimal Minutes,
+    /// Degrees Minutes Seconds, or UTM formats.
+    ///
+    /// - Returns: the recognized coordinate value.
+    func coordinate() -> Coordinate? {
+        var coordinate: Coordinate?
+
+        let formatters: [LocationCoordinateFormatter] = [LocationCoordinateFormatter.decimalDegreesFormatter,
+                                                         LocationCoordinateFormatter.degreesDecimalMinutesFormatter,
+                                                         LocationCoordinateFormatter.degreesMinutesSecondsFormatter,
+                                                         LocationCoordinateFormatter.utmFormatter]
+
+        for formatter in formatters {
+            if let coord = try? formatter.coordinate(from: self) {
+                coordinate = coord
+                break
+            }
+        }
+
+        return coordinate
+    }
+}
+#endif
+
+internal extension Formatter {
+
+    func doubleValue(forName name: String,
+                     inResult result: NSTextCheckingResult,
+                     for string: String) throws -> Double {
+        let val = try value(forName: name, inResult: result, for: string)
+        guard let double = Double(val) else { throw ParsingError.notFound(name: name) }
+        return double
+    }
+
+    func intValue(forName name: String,
+                  inResult result: NSTextCheckingResult,
+                  for string: String) throws -> Int {
+        let val = try value(forName: name, inResult: result, for: string)
+        guard let intVal = Int(val) else { throw ParsingError.notFound(name: name) }
+        return intVal
+    }
+
+    func stringValue(forName name: String,
+                     inResult result: NSTextCheckingResult,
+                     for string: String) throws -> String {
+        return try value(forName: name, inResult: result, for: string)
+    }
+
+    func value(forName name: String,
+               inResult result: NSTextCheckingResult,
+               for string: String) throws -> String {
+        let matchedRange = result.range(withName: name)
+        guard matchedRange.location != NSNotFound, let range = Range(matchedRange, in: string) else {
+            throw ParsingError.notFound(name: name)
+        }
+        return String(string[range])
+    }
+}
+
+
+
+internal extension Double {
+    /// Rounds a Double to a number of places. Probably not very accurately.
+    func roundedTo(places: Int) -> Double {
+        let divisor = pow(10.0, Double(places))
+        return (self * divisor).rounded() / divisor
+    }
+}
+
+
+
+public extension Coordinate {
+
+    /// A Coordinate with both a latitude and longitude of 0.0.
+    static let zero = Self(latitude: Double.zero, longitude: Double.zero)
+
+    /**
+     Null Island is the point on the Earth's surface at zero degrees latitude and zero degrees
+     longitude (0°N 0°E), i.e., where the prime meridian and the equator intersect.
+
+     Null Island is located in international waters in the Atlantic Ocean, roughly 600 km off the coast of West Africa, in the Gulf of Guinea.
+
+     The exact point, using the WGS84 datum, is marked by the Soul buoy (named after the musical genre), a permanently-moored weather buoy.
+     The term "Null Island" jokingly refers to the suppositional existence of an island at
+     that location, and to a common cartographic placeholder name to which coordinates
+     erroneously set to 0,0 are assigned in place-name databases in order to more easily find
+     and fix them. The nearest land (4°45′30″N 1°58′33″W) is 570 km (354 mi; 307.8 nm) to the
+     north – a small Ghanaian islet offshore from Achowa Point between Akwidaa and Dixcove.
+     The depth of the seabed beneath the Soul buoy is around 4,940 meters (16,210 ft).
+     */
+    static let nullIsland = Self.zero
+
+    /**
+     Point Nemo (A.K.A. The oceanic pole of inaccessibility) is the place in the ocean that is farthest from land.
+
+     It lies in the South Pacific Ocean, 2,704.8 km (1,680.7 mi) from the nearest lands: Ducie
+     Island (part of the Pitcairn Islands) to the north, Motu Nui (part of the Easter Islands)
+     to the northeast, and Maher Island (near the larger Siple Island, off the coast of Marie
+     Byrd Land, Antarctica) to the south.
+
+     The area is so remote that — as with any location more than 400 kilometers (about 250
+     miles) from an inhabited area — sometimes the closest human beings are astronauts aboard
+     the International Space Station when it passes overhead.
+    */
+    static let pointNemo = Self(latitude: -49.0273, longitude: -123.4345)
+}
+
+extension Coordinate: Equatable {
+    public static func == (lhs: Coordinate, rhs: Coordinate) -> Bool {
+        return lhs.latitude == rhs.latitude && lhs.longitude == rhs.longitude
+    }
+}
+
+//extension Coordinate: Hashable {
+//    public func hash(into hasher: inout Hasher) {
+//        hasher.combine(latitude)
+//        hasher.combine(longitude)
+//    }
+//}
+
+
+#if canImport(ObjectiveC) // needed for AutoreleasingUnsafeMutablePointer
+
+extension Coordinate: CustomStringConvertible {
+    public var description: String {
+        LocationCoordinateFormatter.decimalFormatter.string(from: self) ?? ""
+    }
+}
+#endif
+
+
+/// Each UTM longitude zone is segmented into 20 latitude bands.
+public enum UTMLatitudeBand: String, CaseIterable, Comparable {
+    case C, D, E, F, G, H, J, K, L, M, N, P, Q, R, S, T, U, V, W, X
+
+    /// The hemisphere the latitude band is in.
+    var hemisphere: UTMHemisphere {
+        self < .N ? .southern : .northern
+    }
+
+    init?(coordinate: Coordinate) {
+        guard coordinate.isValid else { return nil }
+
+        switch coordinate.latitude {
+        // Southern hemisphere
+        case -80 ..< -72: self = .C
+        case -72 ..< -64: self = .D
+        case -64 ..< -56: self = .E
+        case -56 ..< -48: self = .F
+        case -48 ..< -40: self = .G
+        case -40 ..< -32: self = .H
+        case -32 ..< -24: self = .J
+        case -24 ..< -16: self = .K
+        case -16 ..< -8: self = .L
+        case -8 ..< 0: self = .M
+
+        // Northern hemisphere
+        case 0 ..< 8: self = .N
+        case 8 ..< 16: self = .P
+        case 16 ..< 24: self = .Q
+        case 24 ..< 32: self = .R
+        case 32 ..< 40: self = .S
+        case 40 ..< 48: self = .T
+        case 48 ..< 56: self = .U
+        case 56 ..< 64: self = .V
+        case 64 ..< 72: self = .W
+        case 72 ... 84: self = .X // NOTE: 'X' is 12° not 8°
+        default:
+            return nil
+        }
+    }
+
+    public static func < (lhs: UTMLatitudeBand, rhs: UTMLatitudeBand) -> Bool {
+        lhs.rawValue < rhs.rawValue
+    }
+}
+
+public extension Coordinate {
+    /// The latitude band of the coordinate.
+    var latitudeBand: UTMLatitudeBand? {
+        return UTMLatitudeBand(coordinate: self)
+    }
+}
+
+
+
+private extension UTMCoordinate {
+    var formattedEasting: String? {
+        return Self.numberFormatter.string(from: NSNumber(value: easting))
+    }
+
+    var formattedNorthing: String? {
+        return Self.numberFormatter.string(from: NSNumber(value: northing))
+    }
+
+    static var numberFormatter: NumberFormatter = {
+        let formatter = NumberFormatter()
+        formatter.locale = Locale.current
+        formatter.numberStyle = .none
+        formatter.paddingCharacter = "0"
+        formatter.paddingPosition = .beforeSuffix
+        formatter.minimumIntegerDigits = 6
+        formatter.positiveSuffix = "m"
+        return formatter
+    }()
+}
+
+
+
+
+
+
+
+// MARK: Formatters
+
+#if canImport(ObjectiveC) // needed for AutoreleasingUnsafeMutablePointer
+
 
 /**
  A formatter that converts between `Degrees` values and their textual representations.
@@ -589,9 +804,9 @@ public final class LocationDegreesFormatter: Formatter {
         return string(from: degrees)
     }
 
-    override public func getObjectValue(_ obj: RefPtr<AnyObject?>?,
+    override public func getObjectValue(_ obj: AutoreleasingUnsafeMutablePointer<AnyObject?>?,
                                         for string: String,
-                                        errorDescription error: RefPtr<NSString?>?) -> Bool {
+                                        errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?) -> Bool {
         do {
             obj?.pointee = try number(for: string)
             return obj?.pointee != nil
@@ -826,15 +1041,15 @@ public final class LocationCoordinateFormatter: Formatter {
         set { degreesFormatter.symbolStyle = newValue }
     }
 
-//    /// The datum to use for UTM coordinates.
-//    ///
-//    /// Default value is WGS84.
-//    ///
-//    /// - Important: Only used when the ``format`` is `utm`.
-//    public var utmDatum: UTMDatum {
-//        get { utmFormatter.datum }
-//        set { utmFormatter.datum = newValue }
-//    }
+    /// The datum to use for UTM coordinates.
+    ///
+    /// Default value is WGS84.
+    ///
+    /// - Important: Only used when the ``format`` is `utm`.
+    public var utmDatum: UTMDatum {
+        get { utmFormatter.datum }
+        set { utmFormatter.datum = newValue }
+    }
 
     // MARK: - Public API
 
@@ -959,9 +1174,9 @@ public final class LocationCoordinateFormatter: Formatter {
         return string(from: coordinate)
     }
 
-    override public func getObjectValue(_ obj: RefPtr<AnyObject?>?,
+    override public func getObjectValue(_ obj: AutoreleasingUnsafeMutablePointer<AnyObject?>?,
                                         for string: String,
-                                        errorDescription error: RefPtr<NSString?>?) -> Bool {
+                                        errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?) -> Bool {
         do {
             obj?.pointee = try location(from: string)
             return true
@@ -1029,193 +1244,6 @@ public extension LocationCoordinateFormatter {
    ```
     */
     static let utmFormatter = LocationCoordinateFormatter(format: .utm)
-}
-
-
-
-
-public extension String {
-    /// Parses a coordinate value from a string.
-    ///
-    /// Attempts to recognize a valid coordinate in Decimal Degrees, Degrees Decimal Minutes,
-    /// Degrees Minutes Seconds, or UTM formats.
-    ///
-    /// - Returns: the recognized coordinate value.
-    func coordinate() -> Coordinate? {
-        var coordinate: Coordinate?
-
-        let formatters: [LocationCoordinateFormatter] = [LocationCoordinateFormatter.decimalDegreesFormatter,
-                                                         LocationCoordinateFormatter.degreesDecimalMinutesFormatter,
-                                                         LocationCoordinateFormatter.degreesMinutesSecondsFormatter,
-                                                         LocationCoordinateFormatter.utmFormatter]
-
-        for formatter in formatters {
-            if let coord = try? formatter.coordinate(from: self) {
-                coordinate = coord
-                break
-            }
-        }
-
-        return coordinate
-    }
-}
-
-
-internal extension Formatter {
-
-    func doubleValue(forName name: String,
-                     inResult result: NSTextCheckingResult,
-                     for string: String) throws -> Double {
-        let val = try value(forName: name, inResult: result, for: string)
-        guard let double = Double(val) else { throw ParsingError.notFound(name: name) }
-        return double
-    }
-
-    func intValue(forName name: String,
-                  inResult result: NSTextCheckingResult,
-                  for string: String) throws -> Int {
-        let val = try value(forName: name, inResult: result, for: string)
-        guard let intVal = Int(val) else { throw ParsingError.notFound(name: name) }
-        return intVal
-    }
-
-    func stringValue(forName name: String,
-                     inResult result: NSTextCheckingResult,
-                     for string: String) throws -> String {
-        return try value(forName: name, inResult: result, for: string)
-    }
-
-    func value(forName name: String,
-               inResult result: NSTextCheckingResult,
-               for string: String) throws -> String {
-        let matchedRange = result.range(withName: name)
-        guard matchedRange.location != NSNotFound, let range = Range(matchedRange, in: string) else {
-            throw ParsingError.notFound(name: name)
-        }
-        return String(string[range])
-    }
-}
-
-
-
-internal extension Double {
-    /// Rounds a Double to a number of places. Probably not very accurately.
-    func roundedTo(places: Int) -> Double {
-        let divisor = pow(10.0, Double(places))
-        return (self * divisor).rounded() / divisor
-    }
-}
-
-
-
-public extension Coordinate {
-
-    /// A Coordinate with both a latitude and longitude of 0.0.
-    static let zero = Self(latitude: Double.zero, longitude: Double.zero)
-
-    /**
-     Null Island is the point on the Earth's surface at zero degrees latitude and zero degrees
-     longitude (0°N 0°E), i.e., where the prime meridian and the equator intersect.
-
-     Null Island is located in international waters in the Atlantic Ocean, roughly 600 km off the coast of West Africa, in the Gulf of Guinea.
-
-     The exact point, using the WGS84 datum, is marked by the Soul buoy (named after the musical genre), a permanently-moored weather buoy.
-     The term "Null Island" jokingly refers to the suppositional existence of an island at
-     that location, and to a common cartographic placeholder name to which coordinates
-     erroneously set to 0,0 are assigned in place-name databases in order to more easily find
-     and fix them. The nearest land (4°45′30″N 1°58′33″W) is 570 km (354 mi; 307.8 nm) to the
-     north – a small Ghanaian islet offshore from Achowa Point between Akwidaa and Dixcove.
-     The depth of the seabed beneath the Soul buoy is around 4,940 meters (16,210 ft).
-     */
-    static let nullIsland = Self.zero
-
-    /**
-     Point Nemo (A.K.A. The oceanic pole of inaccessibility) is the place in the ocean that is farthest from land.
-
-     It lies in the South Pacific Ocean, 2,704.8 km (1,680.7 mi) from the nearest lands: Ducie
-     Island (part of the Pitcairn Islands) to the north, Motu Nui (part of the Easter Islands)
-     to the northeast, and Maher Island (near the larger Siple Island, off the coast of Marie
-     Byrd Land, Antarctica) to the south.
-
-     The area is so remote that — as with any location more than 400 kilometers (about 250
-     miles) from an inhabited area — sometimes the closest human beings are astronauts aboard
-     the International Space Station when it passes overhead.
-    */
-    static let pointNemo = Self(latitude: -49.0273, longitude: -123.4345)
-}
-
-extension Coordinate: Equatable {
-    public static func == (lhs: Coordinate, rhs: Coordinate) -> Bool {
-        return lhs.latitude == rhs.latitude && lhs.longitude == rhs.longitude
-    }
-}
-
-//extension Coordinate: Hashable {
-//    public func hash(into hasher: inout Hasher) {
-//        hasher.combine(latitude)
-//        hasher.combine(longitude)
-//    }
-//}
-
-extension Coordinate: CustomStringConvertible {
-    public var description: String {
-        LocationCoordinateFormatter.decimalFormatter.string(from: self) ?? ""
-    }
-}
-
-
-
-/// Each UTM longitude zone is segmented into 20 latitude bands.
-public enum UTMLatitudeBand: String, CaseIterable, Comparable {
-    case C, D, E, F, G, H, J, K, L, M, N, P, Q, R, S, T, U, V, W, X
-
-    /// The hemisphere the latitude band is in.
-    var hemisphere: UTMHemisphere {
-        self < .N ? .southern : .northern
-    }
-
-    init?(coordinate: Coordinate) {
-        guard coordinate.isValid else { return nil }
-
-        switch coordinate.latitude {
-        // Southern hemisphere
-        case -80 ..< -72: self = .C
-        case -72 ..< -64: self = .D
-        case -64 ..< -56: self = .E
-        case -56 ..< -48: self = .F
-        case -48 ..< -40: self = .G
-        case -40 ..< -32: self = .H
-        case -32 ..< -24: self = .J
-        case -24 ..< -16: self = .K
-        case -16 ..< -8: self = .L
-        case -8 ..< 0: self = .M
-
-        // Northern hemisphere
-        case 0 ..< 8: self = .N
-        case 8 ..< 16: self = .P
-        case 16 ..< 24: self = .Q
-        case 24 ..< 32: self = .R
-        case 32 ..< 40: self = .S
-        case 40 ..< 48: self = .T
-        case 48 ..< 56: self = .U
-        case 56 ..< 64: self = .V
-        case 64 ..< 72: self = .W
-        case 72 ... 84: self = .X // NOTE: 'X' is 12° not 8°
-        default:
-            return nil
-        }
-    }
-
-    public static func < (lhs: UTMLatitudeBand, rhs: UTMLatitudeBand) -> Bool {
-        lhs.rawValue < rhs.rawValue
-    }
-}
-
-public extension Coordinate {
-    /// The latitude band of the coordinate.
-    var latitudeBand: UTMLatitudeBand? {
-        return UTMLatitudeBand(coordinate: self)
-    }
 }
 
 
@@ -1319,9 +1347,9 @@ public final class UTMCoordinateFormatter: Formatter {
         return string(from: coordinate)
     }
 
-    override public func getObjectValue(_ obj: RefPtr<AnyObject?>?,
+    override public func getObjectValue(_ obj: AutoreleasingUnsafeMutablePointer<AnyObject?>?,
                                         for string: String,
-                                        errorDescription error: RefPtr<NSString?>?) -> Bool {
+                                        errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?) -> Bool {
         do {
             let coord = try coordinate(from: string)
             obj?.pointee = Location(latitude: coord.latitude, longitude: coord.longitude)
@@ -1348,23 +1376,7 @@ public final class UTMCoordinateFormatter: Formatter {
     """#
 }
 
-private extension UTMCoordinate {
-    var formattedEasting: String? {
-        return Self.numberFormatter.string(from: NSNumber(value: easting))
-    }
+#endif
 
-    var formattedNorthing: String? {
-        return Self.numberFormatter.string(from: NSNumber(value: northing))
-    }
 
-    static var numberFormatter: NumberFormatter = {
-        let formatter = NumberFormatter()
-        formatter.locale = Locale.current
-        formatter.numberStyle = .none
-        formatter.paddingCharacter = "0"
-        formatter.paddingPosition = .beforeSuffix
-        formatter.minimumIntegerDigits = 6
-        formatter.positiveSuffix = "m"
-        return formatter
-    }()
-}
+
