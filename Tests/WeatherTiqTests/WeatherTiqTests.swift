@@ -1,5 +1,5 @@
 import XCTest
-@testable import WeatherTiq
+import WeatherTiq
 
 final class WeatherTiqTests: XCTestCase {
     func testWeather() async throws {

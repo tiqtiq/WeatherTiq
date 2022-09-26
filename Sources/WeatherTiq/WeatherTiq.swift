@@ -100,15 +100,7 @@ open class WeatherService : @unchecked Sendable {
         //print("sending userAgent:", userAgent)
         req.addValue(userAgent, forHTTPHeaderField: "User-Agent")
 
-        let (data, response) = try await URLSession.shared.data(for: req)
-
-        guard let response = response as? HTTPURLResponse else {
-            throw WeatherError.unknown
-        }
-
-        guard (200..<300).contains(response.statusCode) else {
-            throw WeatherError.badResponse(response.statusCode)
-        }
+        let (data, response) = try await URLSession.shared.fetchTask(request: req, validate: .init(200..<300))
 
         let forecast = try decoder.decode(METService.JSONForecast.self, from: data)
 
@@ -123,7 +115,7 @@ open class WeatherService : @unchecked Sendable {
         }
 
         // use "expires" cache header as recommended by the service
-        let headers = response.allHeaderFields
+        let headers = (response as? HTTPURLResponse)?.allHeaderFields ?? [:]
 
         //dbg("headers:", headers) // headers: [AnyHashable("Date"): Fri, 02 Sep 2022 15:42:25 GMT, AnyHashable("access-control-allow-methods"): GET, AnyHashable("Last-Modified"): Fri, 02 Sep 2022 15:40:17 GMT, AnyHashable("Age"): 128, AnyHashable("x-backend-host"): b_157_249_75_149_loc, AnyHashable("Content-Length"): 4407, AnyHashable("Content-Type"): application/json, AnyHashable("Vary"): Accept, Accept-Encoding, AnyHashable("x-varnish"): 222428042 222351858, AnyHashable("Via"): 1.1 varnish (Varnish/7.0), AnyHashable("Access-Control-Allow-Origin"): *, AnyHashable("Server"): nginx/1.18.0 (Ubuntu), AnyHashable("Content-Encoding"): gzip, AnyHashable("Expires"): Fri, 02 Sep 2022 16:10:19 GMT, AnyHashable("access-control-allow-headers"): Origin, AnyHashable("Accept-Ranges"): bytes]
 
@@ -1499,4 +1491,56 @@ extension WeatherAlert : WeatherAlertSPI {
 }
 
 extension CurrentWeather : CurrentWeatherSPI {
+}
+
+
+
+extension URLSession {
+    /// A shim for async URL download for back-ported async/await without corresponding URLSession API support
+    func fetchTask(request: URLRequest, validate codes: IndexSet?) async throws -> (data: Data, response: URLResponse) {
+        return try await withCheckedThrowingContinuation { continuation in
+            dataTask(with: request) { data, response, error in
+                if let data = data, let response = response, error == nil {
+                    do {
+                        let validResponse = try response.validating(codes: codes)
+                        continuation.resume(returning: (data, validResponse))
+                    } catch {
+                        continuation.resume(throwing: error)
+                    }
+                } else {
+                    continuation.resume(throwing: error ?? CocoaError(.fileNoSuchFile))
+                }
+            }.resume()
+        }
+
+    }
+}
+
+extension URLResponse {
+    public struct InvalidHTTPCode : Error, LocalizedError {
+        public let code: Int
+        //public let response: HTTPURLResponse
+
+        public var failureReason: String? {
+            //NSLocalizedString("Invalud Cide", bundle: .module, comment: "invalid code error")
+            "Invalid HTTP Response: \(code)"
+        }
+    }
+
+    /// Attempts to validate the status code in the given range and throws an error if they fail.
+    func validating(codes: IndexSet?) throws -> Self {
+        guard let codes = codes else {
+            return self // no validation
+        }
+
+        guard let httpResponse = self as? HTTPURLResponse else {
+            throw URLError(.badServerResponse)
+        }
+
+        if !codes.contains(httpResponse.statusCode) {
+            throw InvalidHTTPCode(code: httpResponse.statusCode)
+        }
+
+        return self // the response is valid
+    }
 }
