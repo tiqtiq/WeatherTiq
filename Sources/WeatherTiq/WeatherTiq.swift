@@ -63,7 +63,7 @@ open class WeatherService : @unchecked Sendable {
     /// - Throws: Weather data error `WeatherError`
     /// - Returns: The aggregate weather.
     ///
-    final public func weather(for location: WeatherLocation) async throws -> Weather {
+    final public func weather(for location: Location) async throws -> Weather {
         guard var comps = URLComponents(url: self.serviceURL, resolvingAgainstBaseURL: false) else {
             throw WeatherError.unknown
         }
@@ -184,7 +184,7 @@ open class WeatherService : @unchecked Sendable {
     /// Example usage:
     /// `let current = try await service.weather(for: newYork, including: .current)`
     ///
-    final public func weather<T>(for location: WeatherLocation, including dataSet: WeatherQuery<T>) async throws -> T {
+    final public func weather<T>(for location: Location, including dataSet: WeatherQuery<T>) async throws -> T {
         let w = try await self.weather(for: location)
         return w[keyPath: dataSet.path]
     }
@@ -199,27 +199,27 @@ open class WeatherService : @unchecked Sendable {
     /// Example usage:
     /// `let (current, minute) = try await service.weather(for: newYork, including: .current, .minute)`
     ///
-    final public func weather<T1, T2>(for location: WeatherLocation, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>) async throws -> (T1, T2) {
+    final public func weather<T1, T2>(for location: Location, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>) async throws -> (T1, T2) {
         let w = try await self.weather(for: location)
         return (w[keyPath: dataSet1.path], w[keyPath: dataSet2.path])
     }
 
-    final public func weather<T1, T2, T3>(for location: WeatherLocation, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>) async throws -> (T1, T2, T3) {
+    final public func weather<T1, T2, T3>(for location: Location, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>) async throws -> (T1, T2, T3) {
         let w = try await self.weather(for: location)
         return (w[keyPath: dataSet1.path], w[keyPath: dataSet2.path], w[keyPath: dataSet3.path])
     }
 
-    final public func weather<T1, T2, T3, T4>(for location: WeatherLocation, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>, _ dataSet4: WeatherQuery<T4>) async throws -> (T1, T2, T3, T4) {
+    final public func weather<T1, T2, T3, T4>(for location: Location, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>, _ dataSet4: WeatherQuery<T4>) async throws -> (T1, T2, T3, T4) {
         let w = try await self.weather(for: location)
         return (w[keyPath: dataSet1.path], w[keyPath: dataSet2.path], w[keyPath: dataSet3.path], w[keyPath: dataSet4.path])
     }
 
-    final public func weather<T1, T2, T3, T4, T5>(for location: WeatherLocation, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>, _ dataSet4: WeatherQuery<T4>, _ dataSet5: WeatherQuery<T5>) async throws -> (T1, T2, T3, T4, T5) {
+    final public func weather<T1, T2, T3, T4, T5>(for location: Location, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>, _ dataSet4: WeatherQuery<T4>, _ dataSet5: WeatherQuery<T5>) async throws -> (T1, T2, T3, T4, T5) {
         let w = try await self.weather(for: location)
         return (w[keyPath: dataSet1.path], w[keyPath: dataSet2.path], w[keyPath: dataSet3.path], w[keyPath: dataSet4.path], w[keyPath: dataSet5.path])
     }
 
-    final public func weather<T1, T2, T3, T4, T5, T6>(for location: WeatherLocation, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>, _ dataSet4: WeatherQuery<T4>, _ dataSet5: WeatherQuery<T5>, _ dataSet6: WeatherQuery<T6>) async throws -> (T1, T2, T3, T4, T5, T6) {
+    final public func weather<T1, T2, T3, T4, T5, T6>(for location: Location, including dataSet1: WeatherQuery<T1>, _ dataSet2: WeatherQuery<T2>, _ dataSet3: WeatherQuery<T3>, _ dataSet4: WeatherQuery<T4>, _ dataSet5: WeatherQuery<T5>, _ dataSet6: WeatherQuery<T6>) async throws -> (T1, T2, T3, T4, T5, T6) {
         let w = try await self.weather(for: location)
         return (w[keyPath: dataSet1.path], w[keyPath: dataSet2.path], w[keyPath: dataSet3.path], w[keyPath: dataSet4.path], w[keyPath: dataSet5.path], w[keyPath: dataSet6.path])
     }
@@ -371,12 +371,12 @@ public struct WeatherMetadata : Equatable, Codable {
     private var latitude, longitude, altitude: Double
 
     /// The location of the request.
-    public var location: WeatherLocation {
-        // this is created dynamically because WeatherLocation = CoreLocation.CLLocation is not codable
-        WeatherLocation(latitude: latitude, longitude: longitude, altitude: altitude)
+    public var location: Location {
+        // this is created dynamically because Location = CoreLocation.CLLocation is not codable
+        Location(latitude: latitude, longitude: longitude, altitude: altitude)
     }
 
-    public init(date: Date, expirationDate: Date, location: WeatherLocation) {
+    public init(date: Date, expirationDate: Date, location: Location) {
         self.date = date
         self.expirationDate = expirationDate
         self.latitude = location.coordinate.latitude

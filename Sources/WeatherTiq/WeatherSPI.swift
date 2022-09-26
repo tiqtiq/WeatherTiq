@@ -7,7 +7,7 @@ public protocol WeatherServiceSPI : AnyObject {
     var attribution: WeatherAttributionType { get async throws }
     associatedtype WeatherAttributionType : WeatherAttributionSPI
 
-    func weather(for location: WeatherLocation) async throws -> WeatherType
+    func weather(for location: Location) async throws -> WeatherType
     associatedtype WeatherType : WeatherSPI
 }
 
@@ -76,9 +76,27 @@ public protocol WeatherAvailabilitySPI {
 #if canImport(CoreLocation)
 
 import class CoreLocation.CLLocation
-public typealias WeatherLocation = CoreLocation.CLLocation
+import struct CoreLocation.CLLocationCoordinate2D
+import func CoreLocation.CLLocationCoordinate2DIsValid
+import typealias CoreLocation.CLLocationDegrees
 
-extension WeatherLocation {
+public typealias Degrees = CoreLocation.CLLocationDegrees
+
+public typealias Location = CoreLocation.CLLocation
+
+/// An abastraction of a latitude and longitude
+///
+/// Equivalent to `CoreLocation.CLLocationCoordinate2D` when `CoreLocation` can be imported.
+public typealias Coordinate = CoreLocation.CLLocationCoordinate2D
+
+extension Coordinate {
+    /// Returns `true` if the specified coordinate is valid, `false` otherwise.
+    public var isValid: Bool {
+        CLLocationCoordinate2DIsValid(self)
+    }
+}
+
+extension Location {
     public convenience init(latitude: Double, longitude: Double, altitude: Double = .nan) {
         self.init(coordinate: .init(latitude: latitude, longitude: longitude), altitude: altitude, horizontalAccuracy: .nan, verticalAccuracy: .nan, timestamp: Date(timeIntervalSinceReferenceDate: 0))
     }
@@ -86,17 +104,32 @@ extension WeatherLocation {
 
 #else // Linux, Windows, etc.
 
-public struct WeatherLocation : Hashable, Sendable {
-    public var coordinate: WeatherCoordinate
+public typealias Degrees = Double
+
+open class Location : Hashable {
+    public var coordinate: Coordinate
     public var altitude: Double
 
     public init(latitude: Double, longitude: Double, altitude: Double = .nan) {
-        self.coordinate = WeatherCoordinate(latitude: latitude, longitude: longitude)
+        self.coordinate = Coordinate(latitude: latitude, longitude: longitude)
         self.altitude = altitude
+    }
+
+    public static func == (lhs: Location, rhs: Location) -> Bool {
+        lhs.coordinate == rhs.coordinate
+        && lhs.altitude == rhs.altitude
+    }
+
+    public func hash(into hasher: inout Hasher) {
+        coordinate.hashValue.hash(into: &hasher)
+        altitude.hashValue.hash(into: &hasher)
     }
 }
 
-public struct WeatherCoordinate : Hashable, Sendable {
+/// An abastraction of a latitude and longitude
+///
+/// Equivalent to `CoreLocation.CLLocationCoordinate2D` when `CoreLocation` can be imported.
+public struct Coordinate : Hashable, Sendable {
     public var latitude: Double
     public var longitude: Double
 
@@ -105,5 +138,13 @@ public struct WeatherCoordinate : Hashable, Sendable {
         self.longitude = longitude
     }
 }
+
+extension Coordinate {
+    /// Returns `true` if the specified coordinate is valid, `false` otherwise.
+    public var isValid: Bool {
+        wip(true) // TODO: validate
+    }
+}
+
 
 #endif
