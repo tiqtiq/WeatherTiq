@@ -2,6 +2,7 @@ import Foundation
 #if canImport(FoundationNetworking)
 import FoundationNetworking
 #endif
+import LocationTiq
 
 @available(*, deprecated)
 func wip<T>(_ item: T) -> T { item }
@@ -102,15 +103,15 @@ open class WeatherService : @unchecked Sendable {
 
         let (data, response) = try await URLSession.shared.fetchTask(request: req, validate: .init(200..<300))
 
-        let forecast = try decoder.decode(METService.JSONForecast.self, from: data)
+        let forecast = try decoder.decode(MeteorologiskInstitutt.JSONForecast.self, from: data)
 
         let units = forecast.properties.meta.units
 
-        guard let step: METService.ForecastTimeStep = forecast.properties.timeseries.first else {
+        guard let step: MeteorologiskInstitutt.ForecastTimeStep = forecast.properties.timeseries.first else {
             throw WeatherError.noCurrentWeather
         }
 
-        guard let inst: METService.ForecastTimeInstant = step.data.instant.details else {
+        guard let inst: MeteorologiskInstitutt.ForecastTimeInstant = step.data.instant.details else {
             throw WeatherError.noCurrentWeather
         }
 
@@ -220,8 +221,8 @@ open class WeatherService : @unchecked Sendable {
     }
 }
 
-extension METService.ForecastSummary {
-    /// Translated between `METService.ForecastSummary.WeatherSymbol` and `WeatherTiq.WeatherCondition`
+extension MeteorologiskInstitutt.ForecastSummary {
+    /// Translated between `MeteorologiskInstitutt.ForecastSummary.WeatherSymbol` and `WeatherTiq.WeatherCondition`
     var condition: WeatherCondition {
         sections.primary
     }

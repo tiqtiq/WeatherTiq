@@ -9,9 +9,10 @@ let package = Package(
     ],
     products: [ .library(name: "WeatherTiq", targets: ["WeatherTiq"]) ],
     dependencies: [
+        .package(url: "https://github.com/tiqtiq/LocationTiq", from: "0.0.1"),
     ],
     targets: [
-        .target(name: "WeatherTiq", resources: [.process("Resources")]),
+        .target(name: "WeatherTiq", dependencies: ["LocationTiq"], resources: [.process("Resources")]),
         .testTarget(name: "WeatherTiqTests", dependencies: ["WeatherTiq"])
     ]
 )

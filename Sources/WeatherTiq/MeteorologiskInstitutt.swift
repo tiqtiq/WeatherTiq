@@ -5,7 +5,8 @@ import FoundationNetworking
 
 // MARK: Model
 
-enum METService {
+/// MET Norway Weather API v.3 (https://api.met.no)
+enum MeteorologiskInstitutt {
     struct JSONForecast: Codable {
         enum ModelType: String, Codable { case Feature }
         var type: ModelType
@@ -152,7 +153,7 @@ enum METService {
 
 
 /// Conversion utilities from the names units to ``Foundation.Dimension``
-extension METService.ForecastUnits {
+extension MeteorologiskInstitutt.ForecastUnits {
     var airTemperatureUnits: UnitTemperature { get throws { try Self.temp(air_temperature) } }
     var airTemperatureMaxUnits: UnitTemperature { get throws { try Self.temp(air_temperature_max) } }
     var airTemperatureMinUnits: UnitTemperature { get throws { try Self.temp(air_temperature_min) } }
