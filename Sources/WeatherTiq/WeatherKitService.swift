@@ -1,14 +1,6 @@
 #if canImport(WeatherKit)
 import WeatherKit
 
-#if canImport(CoreLocation)
-import class CoreLocation.CLLocation
-extension CLLocation : WeatherLocation {
-    public var latitude: Double { coordinate.latitude }
-    public var longitude: Double { coordinate.longitude }
-}
-#endif
-
 extension WeatherServiceSPI {
     @available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
     public static var weatherKit: WeatherKit.WeatherService { WeatherKit.WeatherService.shared }

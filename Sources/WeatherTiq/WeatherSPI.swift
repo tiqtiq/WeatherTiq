@@ -8,9 +8,7 @@ public protocol WeatherServiceSPI : AnyObject {
     var attribution: WeatherAttributionType { get async throws }
     associatedtype WeatherAttributionType : WeatherAttributionSPI
 
-    associatedtype LocationType : WeatherLocation
-
-    func weather(for location: LocationType) async throws -> WeatherType
+    func weather(for location: Location) async throws -> WeatherType
     associatedtype WeatherType : WeatherSPI
 }
 
