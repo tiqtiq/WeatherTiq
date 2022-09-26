@@ -10,9 +10,6 @@ on:
     # run at 9AM & 9PM UTC
     - cron:  '0 9,21 * * *'
 
-env:
-  DEVELOPER_DIR: /Applications/Xcode_14.0.1.app/Contents/Developer
-
 jobs:
   linux:
     runs-on: ubuntu-latest
@@ -24,7 +21,7 @@ jobs:
         run: swift test -v --configuration release -Xswiftc -enable-testing
 
   ios:
-    runs-on: macos-latest
+    runs-on: macos-12
     steps:
       - uses: actions/checkout@v2
       - run: |
@@ -36,7 +33,7 @@ jobs:
               ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 
   tvos:
-    runs-on: macos-latest
+    runs-on: macos-12
     steps:
       - uses: actions/checkout@v2
       - run: |
@@ -48,7 +45,7 @@ jobs:
               ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 
   macos:
-    runs-on: macos-latest
+    runs-on: macos-12
     steps:
       - uses: actions/checkout@v2
       - name: Test (Debug)
@@ -59,7 +56,7 @@ jobs:
   windows:
     # installer seems to no longer work as of Swift 5.6
     if: false
-    runs-on: windows-latest
+    runs-on: windows-12
     steps:
       - uses: actions/checkout@v2
 
