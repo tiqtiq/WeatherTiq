@@ -29,7 +29,7 @@ jobs:
               -configuration Release \
               -scheme "WeatherTiq" \
               -sdk "iphonesimulator" \
-              -destination "platform=iOS Simulator,name=iPod touch (7th generation)" \
+              -destination "platform=iOS Simulator,name=iPhone 14" \
               ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
 
   tvos:

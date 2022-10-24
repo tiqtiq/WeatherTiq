@@ -101,6 +101,7 @@ open class WeatherService : @unchecked Sendable {
         //print("sending userAgent:", userAgent)
         req.addValue(userAgent, forHTTPHeaderField: "User-Agent")
 
+        try Task.checkCancellation()
         let (data, response) = try await URLSession.shared.fetchTask(request: req, validate: .init(200..<300))
 
         let forecast = try decoder.decode(MeteorologiskInstitutt.JSONForecast.self, from: data)
@@ -161,6 +162,7 @@ open class WeatherService : @unchecked Sendable {
                               weatherAlerts: nil, // unsupported
                               availability: .init(minuteAvailability: .unknown, alertAvailability: .unsupported))
 
+        try Task.checkCancellation()
         return weather
     }
 
