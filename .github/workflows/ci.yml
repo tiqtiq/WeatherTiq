@@ -10,6 +10,9 @@ on:
     # run at 9AM & 9PM UTC
     - cron:  '0 9,21 * * *'
 
+env:
+  DEVELOPER_DIR: /Applications/Xcode_14.1.app/Contents/Developer
+
 jobs:
   linux:
     runs-on: ubuntu-latest
